@@ -1,0 +1,36 @@
+Start: 2020-04-29 22:44:20
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-04-29 22:44:27
+
+Start: 2020-04-29 22:49:29
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-04-29 22:49:36
+
+Start: 2020-04-29 22:50:32
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-04-29 22:50:38
+

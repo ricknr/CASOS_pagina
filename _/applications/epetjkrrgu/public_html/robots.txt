@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.caritas.org.mx/post-sitemap.xml
+Sitemap: https://www.caritas.org.mx/page-sitemap.xml
+Sitemap: https://www.caritas.org.mx/program-sitemap.xml
+Sitemap: https://www.caritas.org.mx/category-sitemap.xml
+Sitemap: https://www.caritas.org.mx/post_tag-sitemap.xml
+Sitemap: https://www.caritas.org.mx/author-sitemap.xml

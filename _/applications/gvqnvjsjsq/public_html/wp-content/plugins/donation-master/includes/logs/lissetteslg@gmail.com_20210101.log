@@ -1,0 +1,23 @@
+Start: 2021-01-01 00:56:51
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2021-01-01 00:57:03
+
+Start: 2021-01-01 00:59:09
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_success mail
+End: 2021-01-01 00:59:20

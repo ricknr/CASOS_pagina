@@ -1,0 +1,208 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 04/06/2017. 
+    Theme        : ollo - Charity bootstrap template.
+    Category     : Charity.
+    Author       : @Unifytheme.
+    Designed By  : @Unifytheme.
+    Developed By : @Unifytheme.
+   
+*/
+
+
+
+@media (min-width: 992px) {
+	.container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+@media (max-width: 1199px) {
+  .default-footer .top-footer .footer-subscribe,.default-footer .top-footer .footer-latest-news,
+  .default-footer .top-footer .footer-list {padding-left: 15px;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .shop-details .single-product-details .info strong {top:5px;}
+  #mega-menu-holder>ul> li> a {margin: 0 17px;}
+  .charity-theme .what-we-do .single-do {padding-left: 20px;padding-right: 20px;}
+  .charity-theme .welcome-charity .text {padding-left: 40px;}
+  .charity-theme .recent-cause .single-cause .title p {padding: 0 20px 20px 20px;}
+  .charity-theme .what-people-say .carousel-inner {width: 94%;}
+  .charity-theme .help-banner .right-side .opacity .main-content {max-width: 485px;}
+  .charity-theme .help-banner .right-side .opacity .main-content {padding-left: 35px;padding-bottom: 61px;}
+  .charity-theme .help-banner .right-side .opacity .main-content ul li a {font-size: 15px;}
+  .charity-theme .recent-news .sidebar-post ul li {padding-left: 20px;}
+  .charity-theme .recent-news .single-news .post {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .recent-news .single-news .post .post-tag {margin: 0 -15px;}
+  .charity-theme .what-we-do.style-two .single-do img {left:18px;}
+  .charity-theme .what-we-do.style-two .single-do {padding-left: 15px;padding-right: 15px;}
+  .about-top-text-one .text {padding-left: 40px;}
+  .charity-theme .recent-cause-style-two .single-cause .title {padding: 25px 25px 25px 40px;}
+  .charity-theme .recent-cause-style-two .single-cause .title>span {margin-bottom: 10px;}
+  .charity-theme .recent-cause-style-two .single-cause .codeconSkillbar {margin-bottom: 5px;}
+  .charity-theme .donation-page form .donate-amount li span {width: 60px;height: 60px;line-height: 60px;font-size: 16px;}
+  .charity-theme .donation-page form .donate-amount li input {width: 270px;margin-top: 0;}
+  .charity-theme .donation-page form .donate-amount li {line-height: 60px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  .shop-page .main-wrapper .shop-large-side {margin-bottom: 80px;}
+  .shop-page .all-product-wrapper .page-pagination {float: none;}
+  .shop-page .main-wrapper .shop-large-side,.charity-header .menu-wrapper,.charity-theme .welcome-charity .text,
+  .charity-theme .welcome-charity img,.charity-theme .recent-cause .single-cause img,
+  .charity-theme .what-people-say .carousel-inner,.charity-theme .help-banner .right-side,
+  .theme-team-style-one .single-team-member .img img,.about-top-text-one .text,.about-top-text-one .img-box,
+  .charity-theme .about-top-text-one .img-box .row .single-img img,.charity-theme .recent-cause-style-two .single-cause .image,
+  .charity-theme .recent-cause-style-two .single-cause .title,.charity-theme .recent-cause-style-two .single-cause .image img,
+  .charity-theme .theme-blog-large-sideOne {width: 100%;}
+  .charity-header {padding-top: 25px;}
+  .charity-header .theme-main-menu .right-content {margin-top: 16px;}
+  .charity-theme .welcome-charity .text {padding: 0 0 50px 0;}
+  .charity-theme .what-people-say .carousel-inner .item {padding-left: 35px;padding-right: 35px;}
+  .charity-title a {position: static;margin-top: 20px;}
+  .charity-theme .up-coming-event .single-events .title h5 a {font-size: 20px;line-height: 28px;}
+  .charity-theme .help-banner .left-side {display: none;}
+  .charity-theme .help-banner .right-side .opacity .main-content {padding-left: 15px;padding-right:15px;margin: 0 auto;float: none;max-width: inherit;}
+  .default-footer.charity-footer .bottom-footer {margin-top: 10px;}
+  .default-footer.charity-footer .top-footer [class*="col-"] {margin-bottom: 50px;}
+  .about-top-text-one .text {padding: 0 0 50px 0;}
+  .charity-theme .recent-cause-style-two .single-cause .image {border-radius: 5px 5px 0 0;}
+  .charity-theme .theme-blog-large-sideOne {padding: 0;}
+  .theme-contact-page-styleOne .contactUs-address {padding: 50px 0 0 0;}
+  .charity-header.fixed .logo,.charity-header.fixed .right-content {display: none;}
+  .event-inner-page,.charity-theme .event-details-page .event-large-sidebar {margin-bottom: 80px;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .shop-page .main-wrapper .shop-sidebar {width: 50%;}
+  .charity-theme .banner-bottom-section h3 {font-size: 35px;}
+  .charity-theme .what-we-do .single-do h5 a {font-size: 20px;}
+  .charity-theme .what-we-do .single-do {padding-left: 10px;padding-right: 10px;}
+  .charity-theme .charity-counter .single-box h2 {font-size: 38px;margin-top: 10px;}
+  .charity-theme .help-banner .right-side .opacity .main-content {width: 750px;}
+  .charity-theme .what-we-do.style-two .single-do {padding-left: 5px;padding-right: 15px;}
+  .charity-theme .what-we-do.style-two .single-do h5 a,.charity-theme .what-we-do.style-two .single-do span {margin-left: 0;}
+  .charity-theme .what-we-do.style-two .single-do img {position: static;margin: 0 auto 20px auto;}
+  .charity-theme .theme-inner-banner .opacity {padding-top: 270px;}
+  .charity-theme .donation-page form .donate-amount li span {width: 76px;height: 76px;line-height: 76px;font-size: 18px;}
+  .charity-theme .donation-page form .donate-amount li input {width: 270px;margin-top: 30px;}
+  .charity-theme .donation-page form .donate-amount li {line-height: 76px;}
+  .charity-theme .donation-page form .donate-amount li:nth-child(7) {margin-top: 24px;}
+  .charity-theme .our-project.project-full-width .single-project {width: 33.3333333%;}
+  .charity-theme .theme-blog-sidebarOne {width: 50%;}
+  #charity-main-banner .tp-caption h1 {font-size: 90px;}
+  #charity-main-banner .tp-caption h4 {font-size: 25px;}
+  .charity-header.fixed .menuzord-menu > li > a {padding-top: 15px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  #searchWrapper #close-button {font-size: 20px;}
+  .shop-page .main-wrapper .shop-sidebar,.shop-details .single-product-details .info,
+  .charity-theme .help-banner .right-side .opacity .main-content,
+  .charity-theme .recent-news .single-news img,.charity-theme .recent-cause-details .skills-progress,
+  .charity-theme .recent-cause-details .text-wrapper .left-side,
+  .charity-theme .recent-cause-details .text-wrapper .right-side,.charity-theme .theme-blog-sidebarOne {width: 100%;}
+  .shop-details .single-product-details .info {padding: 50px 0 0 0;}
+  .shop-details .single-product-details .info strong {position: static;margin-top: 20px;display: block;}
+  .charity-header .menuzord-menu > li > a {padding: 0 15px;line-height: 48px;margin: 0;}
+  .charity-theme .banner-bottom-section h3 {font-size: 25px;}
+  .charity-theme .what-we-do .single-do {margin-bottom: 30px;border: 1px solid rgba(0,0,0,0.04);}
+  .charity-theme .charity-counter .single-box {border-right:none;border-bottom: 1px solid #ebebeb;}
+  .charity-theme .what-people-say .carousel-inner .item {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .volunteer-banner .opacity p br {display: none;}
+  .bottom-footer-banner h3,.bottom-footer-banner a,
+  .default-footer .bottom-footer p,.default-footer .bottom-footer ul {float: none;}
+  .bottom-footer-banner h3,.default-footer .bottom-footer p {margin: 0 0 20px 0;}
+  .bottom-footer-banner,.default-footer .bottom-footer {text-align: center;}
+  .charity-theme .recent-cause-style-two .single-cause .codeconSkillbar {margin-top: 42px;}
+  .charity-theme .recent-cause-style-two .single-cause .title {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .recent-cause-style-two .single-cause .title>span {margin-bottom: 10px;}
+  .charity-theme .recent-cause-style-two .single-cause .title .clearfix a {margin-top: 20px;}
+  .charity-theme .recent-cause-details .skills-progress {float: none;}
+  .charity-theme .recent-cause-details .button-two {margin: 20px 0 0 0;float: none;}
+  .charity-theme .recent-cause-details .text-wrapper .right-side {padding: 50px 0 0 0;}
+  .charity-theme .donation-page form {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .donation-page form .donate-amount li:last-child,
+  .charity-theme .donation-page form .donate-amount li:last-child input {width: 100%;}
+  .charity-theme .donation-page form .donate-amount li {margin: 10px 0;}
+  .charity-theme .donation-page form h4 {font-size: 24px;margin-bottom: 32px;}
+  .charity-theme .donation-page h2 {font-size: 35px;line-height: 45px;}
+  .charity-theme .donation-page h2 br {display: none;}
+  .charity-theme .our-project.project-full-width .single-project {width: 50%;}
+  .shop-details .review-tab .tab-pane,.charity-theme .recent-news .single-news .post {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .blog-details-content .commnet-wrapper {padding-left: 10px;padding-right: 10px;}
+  #charity-main-banner .tp-caption h1 {font-size: 40px;line-height: 50px;}
+  #charity-main-banner .tp-caption h1 br {display: none;}
+  #charity-main-banner .tp-caption h4 {font-size: 20px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .error-page form {width: 100%;margin-top: 20px;}
+}
+
+@media (max-width: 550px) {
+  #searchWrapper form {height: 50px;}
+  #searchWrapper form button {width: 60px;font-size: 18px;}
+  #searchWrapper form input {font-size: 18px;padding-right: 62px;}
+  .charity-theme .what-people-say .carousel-inner .item p {font-size: 18px;line-height: 30px;}
+  .charity-theme .what-people-say .carousel-indicators li {width: 50px;height: 50px;margin: 0 15px;}
+  .charity-theme .what-people-say .carousel-indicators li:before {width: 100px;bottom: -26.5px;margin-left: -50px;}
+  .charity-theme .help-banner .right-side .opacity .main-content ul li {width: 100%;}
+  .charity-theme .help-banner .right-side .opacity .main-content .button-two {display: block;margin: 0 auto;}
+  .about-top-text-one .text .author .name,.about-top-text-one .text .author img {float: none;}
+  .about-top-text-one .text .author .name {padding: 20px 0;}
+  .charity-theme .theme-inner-banner .opacity h2 {font-size: 40px;}
+  .charity-theme .donation-page form .donate-amount li span {width: 50px;height: 50px;line-height: 50px;font-size: 16px;}
+  .charity-theme .donation-page form .donate-amount li {line-height: 50px;}
+  .faq-section .faq-content {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .our-project.project-grid .col-xs-6,.charity-theme .our-project.project-full-width .single-project,
+  .shop-details .single-product-details .image,.charity-theme .blog-details-content .single-news .post .post-image-text img,
+  .charity-theme .blog-details-content .single-news .post .post-image-text .text {width: 100%;}
+  .charity-theme .blog-details-content .single-news .post .post-image-text .text {padding-left: 30px;margin-top: 35px;}
+  .charity-theme .blog-details-content .commnet-wrapper .single-comment.reply-comment {margin-left: 20px;}
+}
+
+
+@media (max-width: 500px) {
+  .shop-page .all-product-wrapper .col-xs-6 {width: 100%;}
+}
+
+@media (max-width: 450px) {
+  .bottom-footer-banner h3 {font-size: 25px;}
+  .theme-main-menu .logo {width: 40%;}
+  .theme-team-style-one .col-xs-6 {width: 100%;}
+  .charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post {padding-left: 20px;}
+}
+
+
+@media (max-width: 400px) {
+  .charity-theme .what-we-do .single-do,.charity-theme .what-we-do.style-two .single-do {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .charity-counter .col-xs-6 {width: 100%;}
+  .charity-theme .recent-news .single-news .post,.charity-theme .recent-news .sidebar-post ul li {padding-left: 15px;padding-right: 15px;}
+  .charity-theme .recent-news .single-news .post .post-tag {margin: 0 -15px;}
+  .charity-theme .what-we-do.style-two .single-do img {left:15px;}
+  .charity-theme .donation-page h2 {font-size: 30px;}
+  .faq-section h3 {font-size: 32px;}
+  .theme-contact-page-styleOne .contactUs-address .single-address .icon,.theme-contact-page-styleOne .contactUs-address .single-address .text {float: none;}
+  .theme-contact-page-styleOne .contactUs-address .single-address .text {padding: 20px 0 0 0;}
+}

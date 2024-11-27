@@ -1,0 +1,82 @@
+Start: 2020-12-13 21:02:36
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-12-13 21:02:46
+
+Start: 2020-12-13 21:05:30
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-12-13 21:05:38
+
+Start: 2020-12-13 21:58:42
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_success mail
+End: 2020-12-13 21:58:51
+Start: 2020-12-13 22:00:41
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-12-13 22:00:49
+
+Start: 2020-12-13 22:02:15
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-12-13 22:02:22
+
+Start: 2020-12-13 22:04:29
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_success mail
+End: 2020-12-13 22:05:19
+Start: 2020-12-13 22:06:17
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-12-13 22:06:25
+

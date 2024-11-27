@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0602578be13a262bd1de02e376912594",
+    "packages": [
+        {
+            "name": "cloudways-lab/dboptimize",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudways-lab/dboptimize.git",
+                "reference": "63deaccfd4ed35b1eebda05b919065ba8052b76e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cloudways-lab/dboptimize/zipball/63deaccfd4ed35b1eebda05b919065ba8052b76e",
+                "reference": "63deaccfd4ed35b1eebda05b919065ba8052b76e",
+                "shasum": ""
+            },
+            "require": {
+                "wp-cli/wp-cli": "^2.5"
+            },
+            "require-dev": {
+                "wp-cli/wp-cli-tests": "^3.0.11"
+            },
+            "default-branch": true,
+            "type": "wp-cli-package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "bundled": false,
+                "commands": [
+                    "optimisation"
+                ]
+            },
+            "autoload": {
+                "files": [
+                    "optimisation.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "source": "https://github.com/cloudways-lab/dboptimize/tree/main",
+                "issues": "https://github.com/cloudways-lab/dboptimize/issues"
+            },
+            "time": "2021-09-29T07:21:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "cloudways-lab/dboptimize": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

@@ -1,0 +1,20 @@
+Start: 2018-09-25 06:11:40
+Initalize Payment
+Donor added
+Openpay request is failed due to:1001
+La solicitud no es un formato válido de JSON, los campos no tienen el formato correcto o la solicitud no tiene los campos obligatorios.
+Start: 2018-09-25 06:31:35
+Initalize Payment
+Donor added
+Openpay request is failed due to:1001
+La solicitud no es un formato válido de JSON, los campos no tienen el formato correcto o la solicitud no tiene los campos obligatorios.
+Start: 2018-09-25 06:37:37
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-25 06:38:04

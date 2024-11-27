@@ -1,0 +1,138 @@
+Start: 2018-09-14 06:36:23
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: ab4dlgpczekbw9xgpu9k
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 06:36:36
+Start: 2018-09-14 06:39:24
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: ac7fh3t9xhjdxumafgkf
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 06:39:37
+Start: 2018-09-14 06:45:30
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: avrksgkexcrxh7srpiib
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 06:45:46
+Start: 2018-09-14 06:56:29
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: au9ofbot2mpif7jytitg
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 06:56:44
+Start: 2018-09-14 06:58:05
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: apfcnynqsqgkg2gcsaio
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 06:58:19
+Start: 2018-09-14 07:00:13
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: anaqvw1fwu6dzz4ifpsn
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-14 07:00:26

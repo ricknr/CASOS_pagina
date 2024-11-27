@@ -1,0 +1,6 @@
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2020-05-18 15:48:36
+

@@ -1,0 +1,274 @@
+/***********************************
+	Common styles
+***********************************/
+
+.donation-onehalf {
+	width: 46%;
+	margin: 0 4% 1em 0;
+	float: left;
+}
+.donation-onethird {
+	width: 31%;
+	margin: 0 2% 1em 0;
+	float: left;
+}
+.donation-clear {
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+.donation-hidden { display: none; }
+
+
+/***********************************
+	Nav tabs
+***********************************/
+
+#donation-tabs { }
+#donation-tabs span { cursor: pointer; }
+#donation-tabs .nav-tab-active,
+#donation-tabs span:hover { color: #464646; }
+#donation-tabs .nav-tab-active { cursor: default; }
+h3.donation-no-js-tab {
+	margin: 1em 0;
+	padding: 1em;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	background: #f2f2f2;
+	color: #555;
+}
+
+
+/***********************************
+	Panes
+***********************************/
+
+.donation-pane {
+	margin: 2em 0;
+}
+.donation-pane .widefat {
+	max-width: 600px;
+}
+.js .donation-pane {
+	display: none;
+	border: none;
+}
+
+
+/***********************************
+	Notices
+***********************************/
+
+#donation-settings div.donation-notice { margin: 1.5em 0; }
+
+
+/***********************************
+	Inline menus
+***********************************/
+
+.donation-inline-menu {
+	margin: 1.5em 0;
+	line-height: 1.5em;
+}
+.donation-inline-menu a {
+	display: inline-block;
+	padding: 0 0.7em;
+	border-right: 1px dotted #ccc;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+.donation-inline-menu a:hover {
+	text-decoration: underline;
+}
+.donation-inline-menu a:first-child {
+	padding-left: 0;
+}
+.donation-inline-menu a:last-child {
+	display: inline-block;
+	padding-right: 0;
+	border-right: none;
+}
+
+
+/***********************************
+	Common fields
+***********************************/
+
+#donation-settings .form-table td,
+#donation-settings .form-table th { padding-bottom: 20px;}
+
+#donation-settings .description {
+	display: block;
+	margin-top: 5px;
+}
+
+#donation-settings textarea { min-width: 200px; }
+
+.donation-checkbox-group label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+.donation-title-field {
+	margin: 0 0 0.5em;
+	padding: 0 0 0.5em;
+	border-bottom: 1px solid #ddd;
+	color: #999;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+#settings .form-table th {    
+    width: 300px;
+}
+
+
+/***********************************
+	Color picker
+***********************************/
+
+.donation-color-picker { position: relative; }
+.donation-color-picker-wheel {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+	-moz-box-shadow: 0 2px 5px #ccc;
+	box-shadow: 0 2px 5px #ccc;
+}
+.donation-color-picker .button img {
+	margin: -3px 4px 0 -4px;
+	vertical-align: middle;
+}
+
+
+/***********************************
+	Media manager
+***********************************/
+
+.donation-media { }
+.donation-media .button img {
+	margin: -3px 4px 0 -4px;
+	vertical-align: middle;
+}
+
+
+/***********************************
+	Image radio
+***********************************/
+
+.donation-image-radio { }
+.donation-image-radio a {
+	position: relative;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 4px;
+	background: #f0f0f0;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+}
+.donation-image-radio a:hover {
+	background: #eee;
+}
+.donation-image-radio a.donation-image-radio-selected {
+	background: #2685AF;
+}
+.donation-image-radio img {
+	max-width: 400px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	display: block;
+}
+.donation-image-radio a.donation-image-radio-selected img {
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+
+
+/***********************************
+	Actions bar
+***********************************/
+
+.donation-actions-bar {
+	margin-top: 20px;
+	padding: 10px;
+	border-top: 1px solid #eee;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	background: #f5f5f5;
+}
+.donation-spin,
+.donation-success-tip {
+	display: none;
+	margin-left: 10px;
+}
+.donation-success-tip { color: #0b0; }
+.donation-spin img,
+.donation-success-tip img { margin: 0 5px -3px 0; }
+
+/***********************************
+	Payment Loader
+***********************************/
+
+.payment-loader-container
+{
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+.donation .custom_content_body
+{
+	margin-top: 10px;
+
+}
+
+.donation .btn_cancel
+{
+	background:#F44336;
+	color:#fff;
+	border:#F44336;
+}
+
+.pri_container
+{
+	margin-bottom:10px;
+	display: flow-root;
+}
+
+.pri_left {
+	display:block;
+	width:30%;
+	float:left;
+}
+
+.pri_right
+{
+	display:block;
+	width:40%;
+	float:right;
+	text-align:end;
+}
+
+.pri_info_box
+{
+ 	display:block;
+ 	background-color: #fff;
+ 	border: 1px solid #dad3d3;
+}

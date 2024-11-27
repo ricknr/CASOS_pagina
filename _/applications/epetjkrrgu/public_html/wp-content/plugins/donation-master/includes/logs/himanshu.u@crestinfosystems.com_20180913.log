@@ -1,0 +1,94 @@
+Start: 2018-09-13 07:45:38
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: ahdoksolfa8ymntdpf51
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-13 07:45:51
+Start: 2018-09-13 07:46:42
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: aakl07zjntdrrzsgdi9k
+Add card request for 3d secure
+Source is not validated
+Start: 2018-09-13 07:47:40
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: ae9lyxjwglzuubtvlrwc
+Add card request for 3d secure
+Source is validated
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+End: 2018-09-13 07:47:52
+Start: 2018-09-13 07:48:26
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: aytdx2ngsdnh2a1wuoqd
+Add card request for 3d secure
+Source is not validated
+Start: 2018-09-13 07:52:14
+Initalize Payment
+Donor added
+Secret_key:sk_28825bebea5c431a9f4fbd5941ab51f1
+Curl request for action:https://sandbox-api.openpay.mx/v1/miiqhqsvo9df7hlpobul/customers
+ : Array
+(
+    [name] => Himanshu Ujla
+    [email] => himanshu.u@crestinfosystems.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: aiw6yege6kg4uhb01nin
+Add card request for 3d secure
+Source is not validated

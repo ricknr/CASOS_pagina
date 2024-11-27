@@ -1,0 +1,32 @@
+Start: 2018-09-15 16:45:24
+Initalize Payment
+Donor added
+Secret_key:sk_c9e9ee9cbd584884aa6eacc99166781b
+Curl request for action:https://api.openpay.mx/v1/m20vzv1gozraevafpmoi/customers
+ : Array
+(
+    [name] => Gabriela Garza Tamez
+    [email] => gabygata@hotmail.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: a0e2n6r6r4fmczlnkpwi
+Add card request for 3d secure
+Source is not validated
+Start: 2018-09-15 16:48:05
+Initalize Payment
+Donor added
+Secret_key:sk_c9e9ee9cbd584884aa6eacc99166781b
+Curl request for action:https://api.openpay.mx/v1/m20vzv1gozraevafpmoi/customers
+ : Array
+(
+    [name] => Gabriela Garza Tamez
+    [email] => gabygata@hotmail.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: a3dcpweoifxkbzfrw69a
+Add card request for 3d secure
+Source is not validated

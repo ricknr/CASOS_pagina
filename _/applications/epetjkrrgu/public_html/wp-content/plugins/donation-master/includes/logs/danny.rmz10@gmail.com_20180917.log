@@ -1,0 +1,32 @@
+Start: 2018-09-17 05:49:07
+Initalize Payment
+Donor added
+Secret_key:sk_c9e9ee9cbd584884aa6eacc99166781b
+Curl request for action:https://api.openpay.mx/v1/m20vzv1gozraevafpmoi/customers
+ : Array
+(
+    [name] => sergio daniel ramirez navarro
+    [email] => danny.rmz10@gmail.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: at1agjed9ycrdp0bumsq
+Add card request for 3d secure
+Source is not validated
+Start: 2018-09-17 05:50:46
+Initalize Payment
+Donor added
+Secret_key:sk_c9e9ee9cbd584884aa6eacc99166781b
+Curl request for action:https://api.openpay.mx/v1/m20vzv1gozraevafpmoi/customers
+ : Array
+(
+    [name] => sergio daniel ramirez navarro
+    [email] => danny.rmz10@gmail.com
+    [requires_account] => 
+)
+ 
+ 
+Customer is created: afynkakjrz9mfvk2tfza
+Add card request for 3d secure
+Source is not validated

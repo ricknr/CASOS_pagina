@@ -1,0 +1,24 @@
+Start: 2023-02-08 02:03:08
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2023-02-08 02:03:21
+
+Start: 2023-02-08 02:03:42
+Initalize Payment
+Donor added
+Start: 2023-02-08 02:07:02
+Initalize Payment
+Donor added
+Start: 2023-02-08 02:07:41
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect

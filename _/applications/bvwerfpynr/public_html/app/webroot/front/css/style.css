@@ -1,0 +1,2548 @@
+
+
+
+
+
+
+/* CSS Document */
+
+/* 
+    Created on   : 04/06/2017. 
+    Theme        : ollo - Charity bootstrap template.
+    Category     : Charity.
+    Author       : @Unifytheme.
+    Designed By  : @Unifytheme.
+    Developed By : @Unifytheme.
+   
+*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - Loading Transition  */
+/*   02 - Global stlye  */
+/*   03 - Header  */
+/*   04 - Charity Banner */
+/*   05 - Theme Team */
+/*   06 - Bottom Footer Banner  */
+/*   07 - Charity Counter  */
+/*   08 - Our Quality  */
+/*   09 - Charity What we Do  */
+/*   10 - Charity Welcome Section  */
+/*   11 - Charity Recent cause  */
+/*   12 - Charity Recent cause Style Two  */
+/*   13 - Charity What people Say  */
+/*   14 - Charity Up Coming event  */
+/*   15 - Charity Help Banner  */
+/*   16 - Theme Footer  */
+/*   17 - Theme Inner Banner  */
+/*   18 - Theme About US  */
+/*   19 - Charity Cause Details  */
+/*   20 - Charity Donation */
+/*   21 - Theme Sidebar  */
+/*   22 - Theme Blog  */
+/*   23 - Theme Blog Details  */
+/*   24 - Theme Project  */
+/*   25 - Error Page  */
+/*   26 - Charity Contact Page  */
+/*   27 - Conatct Form Activation  */
+/*   28 - Shop Page  */
+
+
+/**
+* Importing necessary  Styles.
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CSource+Sans+Pro:300,400,600,700');
+/*----bootstrap css ----- */
+@import url('../vendor/bootstrap/bootstrap.css');
+/*----bootstrap Select ----- */
+@import url('../vendor/bootstrap-select/dist/css/bootstrap-select.css');
+/*----revolution-slider---*/
+@import url('../vendor/revolution/settings.css');
+@import url('../vendor/revolution/layers.css');
+@import url('../vendor/revolution/navigation.css');
+/*-------fancy box --------*/
+@import url('../vendor/fancy-box/jquery.fancybox.css');
+/*------- menu ------*/
+@import url('../vendor/menu/dist/css/slimmenu.css');
+/*----font awesome -------*/
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+/*----owl-carousel css----*/
+@import url('../vendor/owl-carousel/owl.carousel.css');
+@import url('../vendor/owl-carousel/owl.theme.css');
+/*-------- animated css ------*/
+@import url('../vendor/WOW-master/css/libs/animate.css');
+/*--------- flat-icon ---------*/
+@import url('../fonts/icon/font/flaticon.css');
+/*---- Progress bar css----*/
+@import url('../vendor/skills-master/source/habilidades.css');
+/*--------- Jquery ui ---------*/
+@import url('../vendor/jquery-ui/jquery-ui.min.css');
+
+
+/*** 
+
+====================================================================
+  Loading Transition
+====================================================================
+
+ ***/
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background: #fff;
+  overflow: hidden;
+}
+#loader {
+  background: url("../images/1.gif");
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: 50%;
+  margin: -32px auto 0 auto;
+}
+
+/*==================== Click Top ====================*/
+.scroll-top {
+  width:40px;
+  height:40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  text-align: center;
+  color:#fff;
+  background: #139BA7;
+  font-size: 28px;
+  display: none;
+}
+.scroll-top:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 1;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
+/* --------------------- Global stlye --------------------*/
+
+@font-face {
+  font-family: 'font-awesome';
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color:rgba(0,0,0,0.6);
+  font-size: 16px;
+  position: relative;
+}
+body .main-page-wrapper {overflow-x:hidden;} 
+.charity-theme {line-height: 28px;}
+.agency-theme p {line-height: 30px;}
+.charity-theme a{font-family: 'Roboto', sans-serif;}
+.charity-theme h1,.charity-theme h2,.charity-theme h3,.charity-theme h4,.charity-theme h5,.charity-theme h6 {font-weight: 700;}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+h2 {font-size: 42px; color:#323232;}
+h3 {font-size: 36px; color:#393939;}
+h4 {font-size: 28px; color:#393939;}
+h5 {font-size: 22px; color:#393939;}
+h6 {font-size: 18px; color:rgba(0,0,0,0.6);font-weight: 500;}
+h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
+ul {list-style-type: none;}
+a {text-decoration: none; display: inline-block;color:rgba(0,0,0,0.6)}
+a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
+img {max-width: 100%; display: block;}
+button {border:none;outline: none;-webkit-box-shadow: none;box-shadow: none;display: block; padding: 0;}
+input,textarea {outline: none; -webkit-box-shadow: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.float-left {float:left;}
+.float-right {float:right;}
+.round-border {border-radius: 50%;}
+.m-top0 {margin-top: 0 !important;}
+.m-bottom0 {margin-bottom: 0 !important;}
+.fancybox-skin {padding: 5px !important;}
+/* ------------------------------ Button Style -------------------*/
+.button-one,.button-two,.button-three,.button-four,.button-five {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  color: #fff;
+}
+.button-one,.button-three,.button-four,.button-five,.button-six {line-height: 50px;}
+.button-one {width: 165px;}
+.button-two {width: 150px;line-height: 45px;}
+.button-three {width: 230px;}
+.button-four {width: 184px;}
+.button-five {width: 200px;}
+.button-six {
+  width: 210px;
+  border-radius: 30px;
+  color: #fff;
+  position: relative;
+  padding-left: 30px;
+}
+.button-six i {
+  line-height: 50px;
+  border-radius: 0 30px 30px 0;
+  border-left:1px solid #e8bd37;
+  float:right;
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.button-six:hover {color: #fff;}
+body .button-seven {
+  width: 205px;
+  line-height: 55px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* ------------------------ Transition ----------------------*/
+.tran3s,.button-one,.button-two,.button-three,.button-four,.button-five,.button-six,.button-six i,body .button-seven,
+.dropdown-menu > li > a,.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:before,.charity-theme .help-banner .right-side .opacity .main-content ul li i,
+.charity-theme .blog-details-content .commnet-wrapper .single-comment button {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.tran4s {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.tran5s,.img img {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+        /* ------------ Charity Theme ----------*/
+.ch-p-color,#mega-menu-holder>ul> li:hover> a,#mega-menu-holder>ul> li.active> a,#charity-main-banner .tp-caption a.volunteer-button,.charity-theme .what-we-do .single-do:hover h5 a,
+.charity-theme .recent-cause .single-cause:hover .title h5 a,.charity-theme .recent-cause .all-cause,.charity-theme .up-coming-event .single-events .title ul li:last-child a,
+.charity-theme .up-coming-event .single-events:hover .title h5 a,.charity-theme .help-banner .right-side .opacity .main-content ul li i,.charity-theme .help-banner .right-side .opacity .main-content ul li:hover a,
+.charity-theme .recent-news .single-news:hover .post h5 a,.charity-theme .recent-news .single-news .post .post-tag .share:hover,.charity-theme .bottom-footer-banner .button-five:hover,
+.default-footer.charity-footer .top-footer .footer-list ul li a:hover,.default-footer.charity-footer .top-footer .footer-latest-news .single-news span,.charity-theme .volunteer-banner .opacity .button-four:hover,
+.charity-theme .theme-inner-banner .opacity ul li a:hover,.charity-theme .theme-team-style-one .single-team-member .title span,.charity-theme .theme-team-style-one .single-team-member:hover .title h6 a,
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.donate:hover,.charity-theme .recent-cause-details .text-wrapper .right-side ul li i,.charity-theme .similer-cause .owl-theme .owl-nav [class*=owl-]:hover,
+.charity-theme .theme-blog-sidebarOne .sidebar-categories ul li a:hover,.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li:hover .post h6 a,.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post ul li a:hover,
+.charity-theme .theme-contact-page-styleOne .contactUs-address .single-address .icon,.shop-page .main-wrapper .shop-sidebar .shop-sidebar-list ul li a:hover,.charity-theme .blog-details-content .commnet-wrapper .single-comment button:hover,
+.shop-page .main-wrapper .shop-sidebar .single-popular-product:hover .product h5 a,.shop-page .all-product-wrapper .single-item:hover h5 a,.shop-page .page-pagination li a:hover,
+#mega-menu-holder li:hover .sub-toggle,#mega-menu-holder li.active .sub-toggle {
+  color: #139BA7;
+}
+.ch-p-bg-color,.charity-header .bootstrap-select.btn-group .dropdown-menu li a:hover,#charity-main-banner .tp-caption a.donate-button:hover,#charity-main-banner .tp-caption a.volunteer-button:hover,.charity-title h2:before,
+.button-six,.charity-title a:hover,.charity-theme .help-banner .right-side .opacity .main-content ul li:hover i,.charity-theme .help-banner .right-side .opacity .main-content .button-two:hover,.default-footer.charity-footer .bottom-footer ul li a:hover,
+.charity-theme .theme-team-style-one .single-team-member .title ul li a:hover,.charity-theme .charity-pagination li a:hover,.charity-theme .charity-pagination li:last-child a:hover,.charity-theme .donation-page form .donate-amount li span:hover,
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.more:hover,.charity-theme .recent-cause-details .button-two:hover,.charity-theme .theme-blog-sidebarOne .sidebar-keywords ul li a:hover,
+.charity-theme .donation-page form .bootstrap-select.btn-group .dropdown-menu li a:hover,.shop-page .main-wrapper .shop-sidebar .product-tag ul li a:hover,.shop-page .page-pagination li:last-child a:hover,
+.shop-page .all-product-wrapper .single-item:hover a.cart,.shop-page .shop-page-pagination li a:hover,.menuzord-menu ul.dropdown li:hover > a,#mega-menu-holder ul.dropdown li a:hover {
+  background: #139BA7;
+}
+#charity-main-banner .tp-caption a.volunteer-button,#charity-main-banner .tp-caption a.donate-button:hover:hover,.charity-theme .recent-cause .all-cause,.charity-title a:hover,.charity-theme .theme-team-style-one .single-team-member .title ul li a:hover,
+.charity-theme .help-banner .right-side .opacity .main-content ul li:hover i,.charity-theme .help-banner .right-side .opacity .main-content .button-two:hover,.default-footer.charity-footer .bottom-footer ul li a:hover,.charity-theme .charity-pagination li a:hover,
+.charity-theme .recent-cause-style-two .single-cause .codeconSkillbar .skillBar span,.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.donate,.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.more:hover,
+.charity-theme .recent-cause-details .button-two,.charity-theme .similer-cause .owl-theme .owl-nav [class*=owl-]:hover,.charity-theme .blog-details-content .reply-option input:focus,.charity-theme .blog-details-content .reply-option textarea:focus,
+.shop-page .main-wrapper .shop-sidebar .product-tag ul li a:hover,.shop-page .page-pagination li a:hover,.shop-page .all-product-wrapper .single-item:hover a.cart,.shop-page .shop-page-pagination li a:hover,.theme-contact-page-styleOne .contact-us-form form input:focus,
+.theme-contact-page-styleOne .contact-us-form form textarea:focus {
+  border-color: #139BA7;
+  border-style: solid;
+}
+.ch-s-color,.default-footer.charity-footer .top-footer .footer-latest-news .single-news:hover h5 a {
+  color:  #0f808a;
+}
+.ch-s-bg-color,.charity-header .theme-main-menu .search:hover,.button-six:hover,.charity-theme .recent-cause .single-cause .title .clearfix a:hover,.charity-theme .recent-cause .all-cause:hover,
+.default-footer.charity-footer .top-footer .footer-subscribe form button:hover,.charity-theme .blog-details-content .reply-option button:hover,.charity-theme .donation-page form>button:hover,
+.error-page a:hover,.shop-page .main-wrapper .shop-sidebar .price-ranger .button-two:hover,.shop-details .single-product-details .info a:hover,.theme-contact-page-styleOne .contact-us-form form button:hover  {
+  background:  #0f808a;
+}
+.button-six:hover i {
+  border-left-color: #e4844b;
+}
+.charity-theme .recent-cause .all-cause:hover {
+  border-color:  #0f808a;
+  border-style: solid;
+}
+/* ---------------------------- Theme Title -----------------------*/
+.charity-title h2 {
+  font-weight: 900;
+  position: relative;
+  padding-bottom: 13px;
+  margin-top: -3px;
+}
+.charity-title h2:before {
+  content: '';
+  width:44px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+.charity-title.text-center h2:before {
+  left: 50%;
+  margin-left: -22px;
+}
+.charity-title p {
+  font-size: 18px;
+  margin-top: 14px;
+}
+.charity-title {position: relative;}
+.charity-title a {
+  width: 145px;
+  line-height: 43px;
+  border:1px solid #ededed;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #393939;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top:28px;
+  border-radius: 30px;
+}
+.charity-title a:hover {color: #fff;}
+/* ------------------------------------ Header -------------------------------*/
+.charity-header {
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  z-index: 999;
+  background-image: -moz-linear-gradient( -90deg, rgb(33,33,33) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(33,33,33) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(33,33,33) 0%, rgba(0,0,0,0) 100%);
+  padding-top: 25px;
+}
+
+.charity-header .menuzord-menu > li > a {
+  font-size: 18px;
+  color: #fff;
+  padding: 38px 0 20px 0;
+  margin: 0 10px;
+}
+.charity-header .menuzord-menu li .indicator {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.charity-header .theme-main-menu .right-content .language-select {
+  display: inline-block;
+  margin: 0 26px 0 30px;
+}
+.charity-header .theme-main-menu .bootstrap-select > .dropdown-toggle {
+  width: 60px;
+  line-height: 28px;
+  border: 1px solid #fff;
+  padding: 0 0 0 13px;
+}
+.charity-header .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  font-family: 'Roboto', sans-serif;
+  color:#fff;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.charity-header .theme-main-menu .bootstrap-select > .dropdown-toggle:hover,
+.charity-header .theme-main-menu .bootstrap-select > .dropdown-toggle:focus {
+  background: transparent;
+}
+.charity-header .theme-main-menu .bootstrap-select.btn-group .dropdown-toggle .bs-caret:before {
+  content: "";
+  font-family: 'font-awesome';
+  position: absolute;
+  color: #fff;
+  line-height: 28px;
+  top:0;
+  right: 10px;
+  font-size: 18px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+  display: none;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+  width: 150px;
+  left:auto;
+  right: 0;
+}
+.dropdown-menu > li > a:hover {
+  color: #fff;
+}
+.charity-header .theme-main-menu .search {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  font-size: 15px;
+}
+.charity-header .theme-main-menu .right-content {margin-top: 35px;}
+#searchWrapper {
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background: rgba(255,255,255,0.95);
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+}
+#searchWrapper.show-box {
+  opacity: 1;
+  visibility: visible;
+}
+#searchWrapper .container {
+  height: 100%;
+}
+#searchWrapper img {
+  margin:0 auto;
+  position: relative;
+  top:20%;
+}
+#searchWrapper form {
+  position: relative;
+  top:40%;
+  height: 70px;
+  -webkit-transform:translateY(-50%);
+          transform:translateY(-50%);
+}
+#searchWrapper form input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.09);
+  border-radius: 5px;
+  padding: 0 95px 0 20px;
+  background: transparent;
+  font-size: 20px;
+}
+#searchWrapper form input:focus {
+  -webkit-box-shadow: 0px 0px 18px -3px rgba(2,181,255,0.3);
+box-shadow: 0px 0px 18px -3px rgba(2,181,255,0.3);
+}
+#searchWrapper form button {
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  font-size: 20px;
+  color:#fff;
+  border-radius: 0 5px 5px 0;
+}
+#searchWrapper #close-button {
+  position: absolute;
+  top:20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  font-size: 35px;
+  background: transparent;
+}
+/*================= Sticky Menu ===============*/
+@-webkit-keyframes menu_sticky {
+  0%   {margin-top:-120px;opacity: 0;}
+  50%  {margin-top: -64px;opacity: 0;}
+  100% {margin-top: 0;opacity: 1;}
+}
+@keyframes menu_sticky {
+  0%   {margin-top:-120px;opacity: 0;}
+  50%  {margin-top: -64px;opacity: 0;}
+  100% {margin-top: 0;opacity: 1;}
+}
+.charity-header.fixed {
+  position: fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index: 999;
+  background: #212121;
+  margin:0;
+  padding-top: 10px;
+  -webkit-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.15);
+  box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.15);
+  -webkit-animation: menu_sticky  0.70s ease-in-out;
+  animation: menu_sticky  0.70s ease-in-out;
+}
+               /* IIIIIIIIIIIIIIIIIII Charity Banner IIIIIIIIIIIIII*/
+#charity-main-banner .tp-caption h1 {
+  font-size: 100px;
+  line-height: 110px;
+  color: #fff;
+}
+#charity-main-banner .tp-caption h4 {
+  color: #fff;
+  font-weight: normal;
+}
+#charity-main-banner .tp-caption a {
+  text-align: center;
+  font-size: 18px;
+  line-height: 46px;
+  border-radius: 30px;
+  border-width: 2px;
+}
+#charity-main-banner .tp-caption a.volunteer-button {
+  width: 222px;
+}
+#charity-main-banner .tp-caption a.volunteer-button:hover {
+  color: #fff;
+}
+#charity-main-banner .tp-caption a.donate-button {
+  width: 165px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+/* ---------------------------- Theme Team  ------------------------*/
+.theme-team-style-one .single-team-member {margin-top: 60px;}
+.theme-team-style-one.team-single-page .single-team-member {margin-top:0;margin-bottom: 60px;}
+.theme-team-style-one .single-team-member .img,
+.theme-team-style-one .single-team-member .img img {
+  border-radius: 8px;
+  background: transparent;
+}
+.theme-team-style-one .single-team-member .title h6 a {
+  font-size: 22px;
+  color: #393939;
+  display: block;
+  margin:32px 0 5px 0;
+}
+.charity-theme .theme-team-style-one .single-team-member .title span {
+  display: block;
+  margin-bottom: 15px;
+}
+.theme-team-style-one .single-team-member .title p {margin: 8px 0 15px 0;}
+.theme-team-style-one .single-team-member .title ul li {
+  display: inline-block;
+}
+.theme-team-style-one .single-team-member .title ul li a {
+  width: 35px;
+  line-height: 33px;
+  border:1px solid #e7e7e7;
+  text-align: center;
+  color: #cfd1d9;
+  margin-right: 4px;
+}
+.theme-team-style-one .single-team-member .title ul li a:hover {
+  color: #fff;
+}
+.charity-theme .theme-team-style-one.team-single-page {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 60px;
+}
+/* ---------------------------- Bottom Footer Banner  ------------------------*/
+.bottom-footer-banner h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 8px;
+}
+.bottom-footer-banner .button-five {
+  line-height: 46px;
+  font-size: 15px;
+  font-weight: 500;
+  border-width: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.charity-theme .bottom-footer-banner .container {
+  background: url("../images/home/pattern.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.charity-theme .bottom-footer-banner .button-five {
+  border-color: #fff;
+  width: 175px;
+}
+.charity-theme .bottom-footer-banner .button-five:hover {
+  background: #fff;
+}
+/*--------------------------- Charity Counter ---------------------*/
+.charity-theme .charity-counter {
+  background: #f8f8f8;
+  margin-bottom: 100px;
+}
+.charity-theme .charity-counter .single-box {
+  border-right:1px solid #ebebeb;
+  padding: 80px 0;
+}
+.charity-theme .charity-counter .single-box.border-fix {border-right:none;}
+.charity-theme .charity-counter .single-box p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.charity-theme .charity-counter .single-box h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+/*----------------------------- Charity Banner Bottom --------------------------*/
+.charity-theme .banner-bottom-section h3 {
+  color: #fff;
+  padding: 40px 0 195px 0;
+  font-size: 38px;
+}
+.charity-theme .banner-bottom-section.fix h3 {padding-bottom: 40px;}
+/*----------------------------- Charity What we Do --------------------------*/
+.charity-theme .what-we-do.transform-top {
+  -webkit-transform:translateY(-140px);
+          transform:translateY(-140px);
+}
+.charity-theme .what-we-do .single-do {
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.03);
+  padding: 45px 35px 52px 35px;
+  position: relative;
+}
+.charity-theme .what-we-do .single-do img {
+  margin: 0 auto;
+}
+.charity-theme .what-we-do .single-do h5 a {
+  font-size: 24px;
+  color: #393939;
+  display: block;
+  margin: 15px 0 12px 0;
+}
+.charity-theme .what-we-do .single-do span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.charity-theme .what-we-do.style-two .single-do {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border:1px solid rgb(238, 238, 238);
+  padding: 37px 35px 52px 45px;
+}
+.charity-theme .what-we-do.style-two .single-do h5 a {margin: 0 0 2px 75px;}
+.charity-theme .what-we-do.style-two .single-do span {margin: 0 0 22px 75px;}
+.charity-theme .what-we-do.style-two .single-do img  {
+  position: absolute;
+  top:35px;
+  left:45px;
+}
+.charity-theme .what-we-do.style-two .single-do:hover img {
+  -webkit-transform:scale(1.1);
+          transform:scale(1.1);
+}
+.charity-theme .what-we-do.style-two .single-do:hover {-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);}
+.charity-theme .what-we-do.style-two  {margin: 90px 0 110px 0;}
+/*----------------------------- Charity Welcome Section --------------------------*/
+.charity-theme .welcome-charity {
+  padding: 0 0 125px 0;
+}
+.charity-theme .welcome-charity img {
+  width: 43%;
+  border-radius: 5px;
+}
+.charity-theme .welcome-charity .text {
+  width: 57%;
+  padding-left: 80px;
+}
+.charity-theme .welcome-charity .text a {margin-top: 38px;}
+/*----------------------------- Charity Recent cause --------------------------*/
+.charity-theme .recent-cause .charity-title {
+  margin-bottom: 70px;
+}
+.charity-theme .recent-cause .single-cause {
+  margin-bottom:70px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.charity-theme .recent-cause .single-cause .img img {
+  /*width: 100%;*/
+}
+
+.charity-theme .recent-cause .single-cause .title {
+  border: 1px solid #ededed;
+  position: relative;
+  border-radius: 0 0 5px 5px;
+  padding: 62px 0 0 0;
+}
+
+
+.charity-theme .recent-cause .single-cause .title p {
+  padding:0 15px;
+  height: 120px;  
+  overflow-y: hidden;
+}
+
+
+.charity-theme .recent-cause .single-cause .title h5 a {
+  font-weight: 500;
+  color: #393939;
+  margin-bottom: 16px;
+}
+.charity-theme .recent-cause .single-cause .title>span {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 6px 0 35px 0;
+}
+.charity-theme .recent-cause .single-cause .title span strong {color: #393939;}
+.charity-theme .recent-cause .single-cause .title .clearfix a {
+  width: 50%;
+  line-height: 55px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #393939;
+  border-top:1px solid #ededed;
+}
+.charity-theme .recent-cause .single-cause .title .clearfix a.donate {
+  color: #fff;
+  border-radius: 0 0 0 5px;
+}
+.charity-theme .recent-cause .single-cause .title .clearfix a.more {
+  border-radius: 0 0 5px 0;
+}
+.charity-theme .recent-cause .single-cause .title .clearfix a.more:hover {color: #fff;}
+
+.charity-theme .recent-cause .single-cause .title .donate-piechart {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top:-40px;
+  left: 50%;
+  margin-left: -40px;
+  border-radius: 50%;
+  background: #fff;
+}
+.charity-theme .recent-cause .single-cause .title .donate-piechart span {
+  font-weight: 600;
+  color: #393939;
+  font-size: 22px;
+  line-height: 80px;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  text-align: center;
+}
+.charity-theme .recent-cause .single-cause .title .donate-piechart span:after {
+  content: "%";
+  font-weight: normal;
+}
+.charity-theme .recent-cause .single-cause:hover .title .donate-piechart {
+  -webkit-transform:scale(1.08);
+          transform:scale(1.08);
+  background: rgba(255,255,255,0.9);
+}
+.charity-theme .recent-cause .all-cause {
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto 0 auto;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.charity-theme .recent-cause .all-cause:hover {color: #fff;}
+.charity-theme .charity-pagination li {display: inline-block;}
+.charity-theme .charity-pagination li a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #e2e2e2;
+  width: 35px;
+  line-height: 31px;
+  border: 2px solid #e2e2e2;
+  border-radius: 50%;
+  margin: 0 2px;
+  text-align: center;
+}
+
+.charity-theme .charity-pagination li.active a {
+  /*width: 80px;
+  line-height: 35px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #484848;
+  font-size: 14px;*/
+  background-color: #139BA7;
+}
+
+
+.charity-theme .charity-pagination li a:hover {color: #fff;}
+.charity-theme .charity-pagination  {margin-bottom: 120px;}
+/*----------------------------- Charity Recent cause Style Two --------------------------*/
+.charity-theme .recent-cause-style-two .single-cause .image {
+  width: 41.5%;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+}
+.charity-theme .recent-cause-style-two .single-cause .title {
+  width: 58.5%;
+  border: 1px solid #ededed;
+  border-radius: 0 5px 5px 0;
+  padding: 40px 60px 45px 70px;
+}
+.charity-theme .recent-cause-style-two .single-cause .title h5 a {
+  font-weight: 500;
+  color: #393939;
+  margin-bottom: 22px;
+  font-size: 24px;
+}
+.charity-theme .recent-cause-style-two .single-cause .title>span {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 6px 0 30px 0;
+}
+.charity-theme .recent-cause-style-two .single-cause .title>span strong {color: #393939;}
+.charity-theme .recent-cause-style-two .single-cause .codeconSkillbar {
+  width: 100%;
+  margin: 30px 0 15px 0;
+  background: #f6f6f6;
+  border-radius: 30px;
+  height: 10px;
+}
+.charity-theme .recent-cause-style-two .single-cause .codeconSkillbar .skillBar {
+  height: 10px;
+  border-radius: 30px;
+}
+.charity-theme .recent-cause-style-two .single-cause .codeconSkillbar .skillBar span {
+  width: 40px;
+  line-height: 26px;
+  border-width: 2px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0;
+  text-align: center;
+  top:-45px;
+  right: 0;
+}
+.charity-theme .recent-cause-style-two .single-cause .codeconSkillbar .skillBar span:before {
+  content: '';
+  font-family: 'font-awesome';
+  position: absolute;
+  bottom: -16px;
+  left: 13px;
+  font-size: 17px;
+}
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a {
+  width: 160px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #393939;
+  border:1px solid #ededed;
+  border-radius: 30px;
+}
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.donate {
+  color: #fff;
+  margin-right: 5px;
+}
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.donate:hover {background: #fff;}
+.charity-theme .recent-cause-style-two .single-cause .title .clearfix a.more:hover {color: #fff;}
+.charity-theme .recent-cause-style-two .single-cause {margin-bottom: 55px;}
+/*------------------------ Charity What people Say ----------------------*/
+.charity-theme .what-people-say {
+  margin: 100px 0;
+  padding: 95px 0 85px 0;
+}
+.charity-theme .what-people-say h2 {
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.charity-theme .what-people-say .carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+.charity-theme .what-people-say .carousel-inner:after {
+  content: url("../images/icon/21.png");
+  position: absolute;
+  top:35px;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+.charity-theme .what-people-say .carousel-inner .item {
+  padding: 50px 70px 255px 70px;
+  text-align: center;
+}
+.charity-theme .what-people-say .carousel-inner .item p {
+  font-size: 22px;
+  line-height: 38px;
+  color: #fff;
+}
+.charity-theme .what-people-say .item .name {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  text-align: center;
+}
+.charity-theme .what-people-say .item .name h5 {
+  color: #fff;
+  margin-bottom: 2px;
+}
+.charity-theme .what-people-say .item .name span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+.charity-theme .what-people-say .carousel-inner:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 75px;
+  border: 3px solid #fff;
+}
+.charity-theme .what-people-say .carousel-indicators {
+  width: 100%;
+  margin: 0;
+  bottom: 120px;
+  left: 0;
+}
+.charity-theme .what-people-say .carousel-indicators li {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border:2px solid #fff;
+  margin: 0 20px;
+  background: transparent;
+  position: relative;
+}
+.charity-theme .what-people-say .carousel-indicators li.active {
+  -webkit-transform:scale(1.6);
+          transform:scale(1.6);
+}
+.charity-theme .what-people-say .carousel-indicators li:before {
+  content: '';
+  display: block;
+  width: 118px;
+  height: 3px;
+  background: #474747;
+  position: absolute;
+  left:50%;
+  margin-left: -59px;
+  bottom: -23.9px;
+  opacity: 0;
+}
+.charity-theme .what-people-say .carousel-indicators li.active:before {
+  opacity: 1;
+  -webkit-transform:scale(0.64);
+          transform:scale(0.64);
+}
+#client-carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+#client-carousel .carousel-inner .active {
+  opacity: 1;
+}
+#client-carousel .carousel-inner .active.left,
+#client-carousel .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+#client-carousel .carousel-inner .next.left,
+#client-carousel .carousel-inner .prev.right {
+  opacity: 1;
+}
+#client-carousel .carousel-control {
+  z-index: 2;
+}
+/*------------------------ Charity Up Coming event --------------------------*/
+.charity-theme .up-coming-event .single-events {margin-top: 55px;}
+.charity-theme .up-coming-event .single-events img {
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.charity-theme .up-coming-event .single-events .title ul li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  color: #a1a1a1;
+}
+.charity-theme .up-coming-event .single-events .title ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #a1a1a1;
+}
+.charity-theme .up-coming-event .single-events .title h5 a {
+  font-weight: 900;
+  font-size: 24px;
+  color: #393939;
+  line-height: 32px;
+  display: block;
+  margin-top: 10px;
+}
+/*------------------------ Charity Help Banner --------------------------*/
+.charity-theme .help-banner {
+  margin: 100px 0 80px 0;
+}
+.charity-theme .help-banner>.float-left {width: 50%;}
+.charity-theme .help-banner .left-side {
+  background: url("../images/home/16.jpg") no-repeat center;
+  background-size: cover;
+  height: 580px;
+}
+.charity-theme .help-banner .right-side {
+  background: url("../images/home/17.jpg") no-repeat center;
+  background-size: cover;
+}
+.charity-theme .help-banner .right-side .opacity {
+  background: rgba(34,34,34,0.95);
+}
+.charity-theme .help-banner .right-side .opacity .main-content {
+  max-width: 585px;
+  padding: 55px 0 62px 75px;
+}
+.charity-theme .help-banner .right-side .opacity .main-content h2 {
+  color: #fff;
+  line-height: 50px;
+}
+.charity-theme .help-banner .right-side .opacity .main-content p {
+  color: #fff;
+  margin: 22px 0 25px 0;
+}
+.charity-theme .help-banner .right-side .opacity .main-content ul li {
+  float:left;
+  width: 33.33333333%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.charity-theme .help-banner .right-side .opacity .main-content ul li a {
+  font-size: 18px;
+  color: #fff;
+}
+.charity-theme .help-banner .right-side .opacity .main-content ul li i {
+  display: block;
+  width: 100px;
+  line-height: 98px;
+  border: 1px solid #fff;
+  font-size: 42px;
+  margin: 0 auto 13px auto;
+  border-radius: 50%;
+}
+.charity-theme .help-banner .right-side .opacity .main-content ul li:hover i {color: #fff;}
+.charity-theme .help-banner .right-side .opacity .main-content .button-two {
+  line-height: 43px;
+  border: 1px solid #636363;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+/*------------------------- Volunteer Banner --------------------*/
+.charity-theme .volunteer-banner {
+  background: url("../images/Voluntarios.jpg") no-repeat center;
+  background-size: cover;
+  background-position: 50% 12%;
+}
+.charity-theme .volunteer-banner .opacity {
+  background: rgba(18,18,18,0.60);
+  text-align: center;
+  padding: 90px 0;
+}
+.charity-theme .volunteer-banner .opacity h2 {
+  font-size: 50px;
+  color: #fff;
+}
+.charity-theme .volunteer-banner .opacity p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255,255,255,0.7);
+  margin: 18px 0 35px 0;
+}
+.charity-theme .volunteer-banner .opacity .button-four {
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.charity-theme .volunteer-banner .opacity .button-four:hover {background: #fff;}
+/*------------------------------- Partner Logo ------------------------*/
+#partner-logo .item img {margin: 0 auto;}
+#partner-logo {padding: 36px 0;}
+#partner-logo.pfix {padding: 55px 0;}
+/* ------------------------------ Theme Footer --------------------------*/
+.default-footer.charity-footer {
+  background: #282828;
+  padding: 75px 0 0 0;
+  position: relative;
+}
+.default-footer.charity-footer .bottom-footer {margin-top: 60px;}
+.default-footer.charity-footer .bottom-footer .wrapper {
+  border-top:1px solid #2f2f2f;
+  padding: 24px 0;
+}
+.default-footer.charity-footer .bottom-footer p {color: #c3c3c3;}
+.default-footer.charity-footer .bottom-footer ul li a {
+  border-color: #515151;
+  color: #515151;
+}
+.default-footer.charity-footer .bottom-footer ul li a:hover {color: #fff;}
+.default-footer .footer-logo p {
+  color: rgba(255,255,255,0.6);
+  margin-top: 14px;
+}
+.default-footer .top-footer .footer-list {padding-left: 55px;}
+.default-footer .top-footer h6 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.default-footer .top-footer .footer-list ul li a {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 10px;
+  font-weight: normal;
+  display: block;
+}
+.default-footer .top-footer .footer-latest-news {padding-left: 85px;}
+.default-footer .top-footer .footer-latest-news .single-news h5 a {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #e9e9e9;
+}
+.default-footer .top-footer .footer-latest-news .single-news span {
+  color: #5a7fb7;
+}
+.default-footer .top-footer .footer-latest-news .single-news {
+  margin-bottom: 16px;
+}
+.default-footer .top-footer .footer-subscribe {padding-left: 60px;}
+.default-footer .top-footer .footer-subscribe p {color: rgba(255,255,255,0.6);}
+.default-footer .top-footer .footer-subscribe form {
+  margin: 40px 0 0 0;
+  height: 60px;
+  position: relative;
+}
+.default-footer .top-footer .footer-subscribe form input {
+  width: 100%;
+  height: 100%;
+  border:none;
+  background: #fff;
+  border-radius: 30px;
+  padding: 0 63px 0 30px;
+  font-size: 15px;
+}
+.default-footer .top-footer .footer-subscribe form button {
+  position: absolute;
+  top:0;
+  right: 0;
+  height: 100%;
+  width: 60px;
+  color: #fff;
+  border-radius: 0 30px 30px 0;
+  font-size: 30px;
+}
+.default-footer .bottom-footer p {
+  color: #fff;
+  line-height: 35px;
+}
+.default-footer .bottom-footer p a {font-weight: normal;}
+.default-footer .bottom-footer ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.default-footer .bottom-footer ul li a {
+  width: 35px;
+  line-height: 31px;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+/* ---------------------------- Theme Inner Banner ------------------------*/
+.charity-theme .theme-inner-banner {  
+  background: url("../images/background1.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 130px;
+  background-position: center;
+}
+
+
+.charity-theme .theme-inner-banner2 {  
+  background: url("../images/background82.jpg") no-repeat center;
+  background-size: cover;
+  /*margin-bottom: 130px;*/
+  /*background-position: top;*/
+}
+
+.charity-theme .theme-inner-banner .opacity {
+  background: rgba(0,0,0,0.4);
+  padding: 230px 0 110px 0;
+  text-align: center;
+}
+
+.charity-theme .theme-inner-banner2 .opacity {
+  background: rgba(0,0,0,0.4);
+  padding: 230px 0 110px 0;
+  text-align: center;
+}
+
+.charity-theme .theme-inner-banner .opacity h2 {
+  font-weight: 900;
+  font-size: 60px;
+  color: #e0e0e0;
+  text-transform: uppercase;
+}
+
+.charity-theme .theme-inner-banner2 .opacity h2 {
+  font-weight: 900;
+  font-size: 60px;
+  color: #e0e0e0;
+  text-transform: uppercase;
+}
+
+.charity-theme .theme-inner-banner .opacity ul {
+  display: inline-block;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #ffffff;
+  line-height: 48px;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+.charity-theme .theme-inner-banner2 .opacity ul {
+  display: inline-block;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #ffffff;
+  line-height: 48px;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+.charity-theme .theme-inner-banner .opacity ul li {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #e0e0e0;
+}
+
+.charity-theme .theme-inner-banner2 .opacity ul li {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #e0e0e0;
+}
+
+.charity-theme .theme-inner-banner .opacity ul li a {
+  color: #e0e0e0;
+}
+
+.charity-theme .theme-inner-banner2 .opacity ul li a {
+  color: #e0e0e0;
+}
+/* ---------------------------- Theme About US  ------------------------*/
+.charity-theme .about-top-text-one .img-box .row {margin: 0 -10px;}
+.charity-theme .about-top-text-one .img-box .row .single-img {
+  width: 57%;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.charity-theme .about-top-text-one .img-box .row .single-img.small {width: 43%;}
+.about-top-text-one .title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.about-top-text-one .img-box {
+  width: 47%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.about-top-text-one .text {
+  width: 53%;
+  padding-left: 75px;
+}
+.about-top-text-one .text h3 {
+  font-weight: 900;
+  line-height: 45px;
+  margin: -7px 0 24px 0;
+}
+.about-top-text-one .text .author {
+  margin: 34px 0 40px 0;
+}
+.about-top-text-one .text .author img.round-border {
+  width: 76px;
+  height: 76px;
+}
+.about-top-text-one .text .author .name {
+  padding: 18px 0 0 40px;
+}
+.about-top-text-one .text .author .name h6 {
+  font-weight: 700;
+  color: #393939;
+}
+/*-------------------- Charity Cause Details -------------------------*/
+/*.charity-theme .recent-cause-details img {margin: 45px 0 50px 0;}*/
+
+.charity-theme .recent-cause-details img {
+  margin: 0 auto;
+  padding: 10px;
+}
+.charity-theme .recent-cause-details h2 {font-weight: 900;}
+.charity-theme .recent-cause-details .skills-progress {width: 100%;}
+.charity-theme .recent-cause-details .codeconSkillbar {
+  width: 100%;
+  margin: 15px 0 0 0;
+  background: #f4f4f4;
+  border-radius: 30px;
+  height: 16px;
+}
+.charity-theme .recent-cause-details .codeconSkillbar .skillBar {
+  height: 100%;
+  border-radius: 30px;
+}
+.charity-theme .recent-cause-details .button-two {
+  line-height: 41px;
+  border-width: 2px;
+  color: #393939;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.charity-theme .recent-cause-details .button-two:hover {color: #fff;}
+.charity-theme .recent-cause-details .container>span {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 6px 0 0 0;
+}
+.charity-theme .recent-cause-details .container>span strong {color: #393939;}
+.charity-theme .recent-cause-details .text-wrapper {
+  border-top:1px solid #ececec;
+  border-bottom:1px solid #ececec;
+  margin: 30px 0 50px 0;
+  padding: 35px 0 50px 0;
+}
+.charity-theme .recent-cause-details .text-wrapper h6 {
+  color: #393939;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.charity-theme .recent-cause-details .text-wrapper .left-side {
+  width: 48%;
+}
+.charity-theme .recent-cause-details .text-wrapper .right-side {
+  width: 52%;
+  padding-left: 60px;
+}
+.charity-theme .recent-cause-details .text-wrapper .right-side ul li {
+  font-weight: 600;
+  color: #393939;
+  font-size: 18px;
+  padding-left: 45px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.charity-theme .recent-cause-details .text-wrapper .right-side ul li i {
+  position: absolute;
+  top:5px;
+  left:0;
+  font-size: 20px;
+}
+.charity-theme .similer-cause {margin-bottom: 70px;}
+.charity-theme .similer-cause .item {margin: 0 15px;}
+.charity-theme .similer-cause .owl-theme .owl-nav [class*=owl-] {
+  font-family: 'font-awesome';
+  width: 32px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 0;
+  border:1px solid #d4d4d4;
+  text-align: center;
+  color:  #d4d4d4;
+  font-size: 18px;
+}
+.charity-theme .similer-cause .owl-theme .owl-nav  {
+  position: absolute;
+  right:10px;
+  top:-90px;
+}
+/*-------------------- Charity Donation -------------------------*/
+.charity-theme .donation-page {
+  background: #fafafa;
+  padding: 130px 0 160px;
+}
+.charity-theme .donation-page h2 {
+  line-height: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.charity-theme .donation-page form {
+  background: #fff;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  padding: 50px 55px 65px 55px;
+}
+.charity-theme .donation-page form h4 {
+  font-weight: 500;
+  margin-bottom: 47px;
+}
+.charity-theme .donation-page form .donate-amount {margin: 0 -15px;}
+.charity-theme .donation-page form .donate-amount li {padding: 0 15px;}
+.charity-theme .donation-page form .donate-amount li {
+  font-family: 'Roboto', sans-serif;
+  color: #393939;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 90px;
+}
+.charity-theme .donation-page form .donate-amount li span {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #f9f9f9;
+  line-height: 90px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+}
+.charity-theme .donation-page form .donate-amount li span:hover {color: #fff;}
+.charity-theme .donation-page form .donate-amount li input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  height: 60px;
+  border: none;
+  background: #f9f9f9;
+  padding: 0 15px;
+  border-radius: 5px;
+  width: 290px;
+  margin-top: 15px;
+}
+.charity-theme .donation-page form .billing-information {
+  border-top:1px solid #e1e1e1;
+  border-bottom:1px solid #e1e1e1;
+  margin: 50px 0 50px 0;
+  padding: 60px 0 40px 0;
+}
+.charity-theme .donation-page form .row [class*="col-"] {margin-bottom: 30px;}
+.charity-theme .donation-page form .row label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #393939;
+  display: block;
+  margin-bottom: 12px;
+}
+.charity-theme .donation-page form .row label span {color: red;}
+.charity-theme .donation-page form .row input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+.charity-theme .donation-page form .bootstrap-select {
+  display: block;
+  height: 60px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+.charity-theme .donation-page form .bootstrap-select .btn {
+  padding: 0 20px 0 20px;
+  height: 100%;
+  background: transparent;
+}
+.charity-theme .donation-page form .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  font-size: 16px;
+  color: rgba(0,0,0,0.6);
+}
+.charity-theme .donation-page form .bootstrap-select.btn-group .dropdown-toggle .bs-caret:before {
+  line-height: 60px;
+  color: rgba(0,0,0,0.6);
+  font-size: 20px;
+  right: 15px;
+}
+.charity-theme .donation-page form .payment-information {
+  border-bottom:1px solid #e1e1e1;
+  padding: 0 0 40px 0;
+  margin-bottom: 25px;
+}
+.charity-theme .donation-page form .payment-information img {margin-bottom: 30px;}
+.charity-theme .donation-page form>button {
+  width: 133px;
+  line-height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+/* ---------------------------- Theme Sidebar  ------------------------*/
+.theme-blog-sidebarOne .sidebar-search form {
+  height: 55px;
+  position: relative;
+}
+.theme-blog-sidebarOne .sidebar-search form input {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #f0f0f0;
+  padding: 0 58px 0 25px;
+}
+.theme-blog-sidebarOne .sidebar-search form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 56px;
+  color: #fff;
+  border-radius: 0 30px 30px 0;
+  font-size: 18px;
+}
+.theme-blog-sidebarOne h4 {
+  font-weight: 500;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  margin-top: 65px;
+}
+.theme-blog-sidebarOne .sidebar-categories ul li a {
+  font-weight: 600;
+  color: rgba(0,0,0,0.4);
+  margin-bottom: 18px;
+  display: block;
+}
+.theme-blog-sidebarOne .sidebar-recent-news ul li img {
+  width: 90px;
+  border-radius: 5px;
+}
+.theme-blog-sidebarOne .sidebar-recent-news>ul>li {
+  margin-bottom: 30px;
+}
+.theme-blog-sidebarOne .sidebar-recent-news ul li .post {
+  width: calc(100% - 90px);
+  padding-left: 28px;
+}
+.theme-blog-sidebarOne .sidebar-recent-news ul li .post h6 a {
+  line-height: 26px;
+  color: #25292f;
+}
+.theme-blog-sidebarOne .sidebar-keywords ul li {
+  display: inline-block;
+  margin:0 4px 10px 0;
+}
+.theme-blog-sidebarOne .sidebar-keywords ul li a {
+  line-height: 35px;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  font-weight: normal;
+  color: rgba(0,0,0,0.6);
+  padding: 0 13px;
+}
+/* ------------------------------ Theme Blog --------------------------*/
+.charity-theme .recent-news [class*="col-"] {margin-top: 60px;}
+.charity-theme .recent-news.v2 [class*="col-"] {margin-top: 0;margin-bottom: 60px;}
+.charity-theme .recent-news .single-news img {border-radius: 5px;}
+.charity-theme .recent-news .single-news .post {
+  border: 1px solid #f0f0f0;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  padding: 35px 55px 0 45px;
+  position: relative;
+}
+.charity-theme .recent-news .single-news .post .tag {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 13px;
+}
+.charity-theme .recent-news .single-news .post h5 a {
+  font-size: 24px;
+  line-height: 30px;
+  color:#393939;
+  margin: 20px 0 10px 0;
+}
+.charity-theme .recent-news .single-news .post p {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.charity-theme .recent-news .single-news .post .post-tag {
+  margin: 0 -55px 0 -45px;
+  border-top: 1px solid #f0f0f0;
+  padding-left: 45px;
+  position: relative;
+}
+.charity-theme .recent-news .single-news .post .post-tag ul li {
+  display: inline-block;
+  line-height: 55px;
+}
+.charity-theme .recent-news .single-news .post .post-tag ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(0,0,0,0.5);
+  margin-right: 15px;
+}
+.charity-theme .recent-news .single-news .post .post-tag ul li a i {
+  color: #cdd7d8;
+  margin-right: 3px;
+}
+.charity-theme .recent-news .single-news .post .post-tag .share {
+  position: absolute;
+  line-height: 55px;
+  width: 50px;
+  top:0;
+  right: 0;
+  color: rgba(0,0,0,0.5);
+}
+.charity-theme .recent-news .sidebar-post ul li {
+  margin-bottom: 25px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 25px 15px 25px 45px;
+}
+.charity-theme .recent-news .sidebar-post ul li h5 a {
+  font-size: 24px;
+  line-height: 30px;
+  color:#393939;
+  margin: 0 0 6px 0;
+}
+.charity-theme .recent-news .sidebar-post ul li:hover {
+  background: #2b313b;
+  border-color: #2b313b;
+}
+.charity-theme .recent-news .sidebar-post ul li:hover h5 a,
+.charity-theme .recent-news .sidebar-post ul li:hover p {color: #fff;}
+.charity-theme .recent-news {margin-bottom: 100px;}
+.charity-theme .theme-blog-sidebarOne {width: 31.7%;}
+.charity-theme .theme-blog-large-sideOne {
+  width: 68.3%;
+  padding-right: 60px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-search form {height: 65px;}
+.charity-theme .theme-blog-sidebarOne .sidebar-search form button {
+  width: 70px;
+  background: #414141;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-categories ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li img  {width: 110px;}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post {
+  width: calc(100% - 110px);
+  padding-left: 40px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post h6 a {line-height: 28px;}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post ul li {
+  display: inline-block;
+  margin-top: 12px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post ul li a {
+  font-weight: 500;
+  color: rgba(0,0,0,0.5);
+  margin-right: 15px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-recent-news ul li .post ul li a i {
+  color: #cdd7d8;
+  margin-right: 3px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-keywords ul li a {
+  line-height: 40px;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #878787;
+  background: #eff4f4;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 25px;
+  margin-bottom: 10px;
+}
+.charity-theme .theme-blog-sidebarOne .sidebar-keywords ul li a:hover {color: #fff;}
+.charity-theme .recent-news.blog-grid-post .single-news {margin-bottom: 60px;}
+.charity-theme .blog-inner-page {
+  border-bottom: 1px solid #efefef;
+   padding-bottom: 50px;
+}
+/* ------------------------------ Theme Blog Details --------------------------*/
+.charity-theme .recent-news.blog-details-content .single-news .post h4 {
+  line-height: 30px;
+  margin: 20px 0 10px 0;
+}
+.charity-theme .recent-news.blog-details-content .single-news .post p {margin-bottom: 35px;}
+.charity-theme .blog-details-content .single-news .post .post-image-text {
+  margin: 0 0 30px 0;
+}
+.charity-theme .blog-details-content .single-news .post .post-image-text img {width: 33%;}
+.charity-theme .blog-details-content .single-news .post .post-image-text .text {
+  width: 67%;
+  padding-left: 60px;
+}
+.charity-theme .blog-details-content .single-news .post .post-image-text .text h6 {
+  color: #393939;
+  line-height: 30px;
+  position: relative;
+  margin-top: -9px;
+}
+.charity-theme .blog-details-content .single-news .post .post-image-text .text h6:before,
+.charity-theme .blog-details-content .single-news .post .post-image-text .text h6:after {
+  font-family: 'font-awesome';
+  color: #c3c3c3;
+  font-size: 18px;
+  position: absolute;
+}
+.charity-theme .blog-details-content .single-news .post .post-image-text .text h6:before {
+  content: '';
+  top:0;
+  left: -30px;
+}
+.charity-theme .blog-details-content .single-news .post .post-image-text .text h6:after {
+  content: '';
+  bottom: -4px;
+  right: 0;
+}
+.charity-theme .blog-details-content h2 {
+  font-size: 38px;
+  margin: 100px 0 45px 0;
+}
+.charity-theme .blog-details-content .commnet-wrapper {
+  border: 1px solid #f0f0f0;
+  padding: 42px 50px 15px 60px;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment .comment {
+  width: calc(100% - 65px);
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 0 40px 25px;
+  position: relative;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment .comment h5 {
+  font-size: 20px;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment .comment span {
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment {margin-bottom: 35px;}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment.reply-comment {margin-left: 90px;}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment:last-child .comment {
+  border: none;
+  padding-bottom: 0;
+}
+.charity-theme .blog-details-content .commnet-wrapper .single-comment button {
+  position: absolute;
+  top:0;
+  right: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  width: 76px;
+  line-height: 30px;
+  border-radius: 30px;
+  background: #eff4f4;
+}
+.charity-theme .blog-details-content .reply-option input,
+.charity-theme .blog-details-content .reply-option textarea {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.charity-theme .blog-details-content .reply-option input {height: 65px;}
+.charity-theme .blog-details-content .reply-option textarea {
+  height: 280px;
+  max-height: 280px;
+  padding: 20px;
+}
+.charity-theme .blog-details-content .reply-option button {
+  border: none;
+  line-height: 55px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.charity-theme .recent-news.blog-details-content [class*="col-"] {margin: 0;}
+/* ------------------------------ Theme Project --------------------------*/
+.charity-theme .our-project .mixitUp-menu li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9f9f9f;
+  margin: 5px 18px;
+  position: relative;
+  cursor: pointer;
+}
+#mixitUp-item .mix {display: none;}
+.charity-theme .our-project .mixitUp-menu li:before {
+  content: '/';
+  position: absolute;
+  top:0;
+  right: -21px;
+  color: #9f9f9f;
+}
+.charity-theme .our-project .single-project img {width: 100%;}
+.charity-theme .our-project.project-grid .single-project img {border-radius: 5px;}
+.charity-theme .our-project.project-full-width .single-project {width: 25%;float:left;}
+.charity-theme .our-project.project-grid .single-project {margin-bottom: 25px;}
+.charity-theme .our-project .mixitUp-menu li:last-child:before {display: none;}
+.charity-theme .our-project .mixitUp-menu li.active,.charity-theme .our-project .mixitUp-menu li:hover {color: #25292f;}
+.charity-theme .our-project .project-wrapper {margin-top: 65px;}
+.charity-theme .our-project .single-project .image {position: relative;}
+.charity-theme .our-project .single-project .image .opacity {
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  border-radius: 5px;
+  background: rgba(248,194,24,0.95);
+  opacity: 0;
+  -webkit-transform:scale(0.3);
+          transform:scale(0.3);
+}
+.charity-theme .our-project .single-project:hover .image .opacity {
+  opacity: 1;
+  -webkit-transform:scale(1);
+          transform:scale(1);
+}
+.charity-theme .our-project .single-project .image .opacity .text {
+  position: relative;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+          transform:translateY(-50%);
+}
+.charity-theme .our-project .single-project .image .opacity h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.charity-theme .our-project .single-project .image .opacity a {
+  width: 46px;
+  line-height: 42px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 24px;
+}
+.charity-theme .our-project.project-grid .single-project .image .opacity h5 {font-size: 22px;}
+.charity-theme .our-project.project-grid .single-project .image .opacity a {
+  width: 42px;
+  line-height: 38px;
+  font-size: 22px;
+}
+.charity-theme .our-project.project-grid {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 100px;
+}
+/*--------------------------- Error Page ---------------------*/
+.error-page {
+  text-align: center;
+  padding-bottom: 200px;
+}
+.error-page h2 {
+  font-size: 150px;
+  margin-top:40px;
+  font-weight: 900;
+  letter-spacing: 14px;
+}
+.error-page h3 {
+  font-weight: normal;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.error-page p {
+  font-size: 18px;
+  margin-bottom: 41px;
+}
+.error-page a {
+  line-height: 55px;
+  width:128px;
+  color:#fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-align: center;
+}
+.error-page span.or {
+  font-size: 18px;
+  color:#2f2f2f;
+  margin:0 16px;
+}
+.error-page form {
+  height:55px;
+  width:380px;
+  position: relative;
+  display: inline-block;
+}
+.error-page form input {
+  padding: 0 58px 0 20px;
+  border:1px solid #f0f0f0;
+  height: 100%;
+  width: 100%;
+}
+.error-page form button {
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  width: 55px;
+  border-left: 1px solid #f0f0f0;
+  background: transparent;
+  font-size: 20px;
+  color: #a3a3a3;
+}
+            /* ------------- Faq Page --------------*/
+.faq-section {
+  background: #f9f9f9;
+  padding: 95px 0 100px 0;
+}
+.faq-section h3 {
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.faq-section .faq-content {
+  background: #fff;
+  padding: 30px 35px 30px 40px;
+  margin-bottom: 30px;
+}
+.faq-section .faq-content h6 {
+  font-weight: 700;
+  color: #393939;
+  margin-bottom: 20px;
+}
+            /* ------------- Google Map  --------------*/
+.charity-theme #contact-google-map {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+}
+            /* ------------- Charity Contact Page --------------*/
+.theme-contact-page-styleOne h4 {
+  font-weight: 500;
+  font-size: 38px;
+  margin-bottom: 55px;
+  color:#2f373a;
+}
+.theme-contact-page-styleOne .contact-us-form .row {
+  margin: 0 -10px;
+}
+.theme-contact-page-styleOne .contact-us-form .row [class*="col-"] {
+  padding: 0 10px;
+}
+.theme-contact-page-styleOne .contact-us-form form .single-input {
+  margin-bottom: 22px;
+}
+.theme-contact-page-styleOne .contact-us-form form input,
+.theme-contact-page-styleOne .contact-us-form form textarea {
+  width: 100%;
+  max-width: 100%;
+  font-size: 15px;
+  border:1px solid #ececec;
+  padding: 0 15px 0 15px;
+  border-radius: 5px;
+}
+.theme-contact-page-styleOne .contact-us-form form input {
+  height: 50px;
+}
+.theme-contact-page-styleOne .contact-us-form form textarea {
+  height: 165px;
+  max-height: 165px;
+  padding: 15px;
+}
+.theme-contact-page-styleOne .contact-us-form form button {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+.theme-contact-page-styleOne .contactUs-address {
+  padding-left: 38px;
+}
+.theme-contact-page-styleOne .contactUs-address>p {
+  margin:-7px 0 30px 0;
+}
+.theme-contact-page-styleOne .contactUs-address .single-address .icon {
+  width: 65px;
+  height: 65px; 
+  text-align: center;
+  margin-top: 7px;
+  line-height: 65px;
+  color:#fff;
+  border: 1px solid #e7e7e7;
+  font-size: 30px;
+}
+.theme-contact-page-styleOne .contactUs-address .single-address h6 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #393939;
+}
+.theme-contact-page-styleOne .contactUs-address .single-address span {
+  font-size: 16px;
+}
+.theme-contact-page-styleOne .contactUs-address .single-address {
+  margin-bottom: 30px;
+}
+.theme-contact-page-styleOne .contactUs-address .single-address .text {
+  padding-left: 26px;
+  margin-top: 10px;
+}
+.finance-theme .contact-us-page {
+  margin-bottom: 110px;
+}
+/*** 
+
+====================================================================
+  Conatct Form Activation
+====================================================================
+
+ ***/
+.alert-wrapper {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+#success,
+#error {
+  position: relative;
+  width:500px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left:calc(50% - 250px);
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+#success .wrapper,
+#error .wrapper {
+  display: table;
+  width:100%;
+  height: 100%;
+}
+#success .wrapper p,
+#error .wrapper p{
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+#success {
+  color: #ffce6e;
+}
+#error {
+  color: #C9182B;
+}
+#error button,
+#success button {
+  color:#fff;
+  width:40px;
+  height:40px;
+  line-height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 20px;
+}
+.form-validation label.error {
+  display: none !important;
+}
+.form-validation input.error,
+.form-validation textarea.error {
+  border:1px solid #f03838 !important;
+}
+/*---------------------------- Shop Page ---------------------------*/
+.shop-page .main-wrapper {margin: 0 -20px;}
+.shop-page .main-wrapper .col {padding: 0 20px;}
+.shop-page .main-wrapper .shop-sidebar {width: 24.8%;}
+.shop-page .main-wrapper .shop-sidebar .shop-sidebar-list ul {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin-bottom: 55px;
+}
+
+.shop-sidebar-list ul {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin-bottom: 55px;
+}
+
+
+.shop-page .main-wrapper .shop-sidebar .shop-sidebar-list ul li a {
+  line-height: 50px;
+  padding: 0 30px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+  color: rgba(0,0,0,0.7);
+  display: block;
+  position: relative;
+}
+
+.shop-sidebar-list ul li a {
+  line-height: 50px;
+  padding: 0 30px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+  color: rgba(0,0,0,0.7);
+  display: block;
+  position: relative;
+}
+
+.shop-page .main-wrapper .shop-sidebar .shop-sidebar-list ul li a i {
+  position: absolute;
+  top:0;
+  line-height: 49px;
+  right: 25px;
+  opacity: 0.3;
+}
+
+.shop-sidebar-list ul li a i {
+  position: absolute;
+  top:0;
+  line-height: 49px;
+  right: 25px;
+  opacity: 0.3;
+}
+.shop-page .main-wrapper .shop-sidebar .shop-sidebar-list ul li:last-child a {border: none;}
+.shop-sidebar-list ul li:last-child a {border: none;}
+
+.shop-sidebar-list ul li a:hover {
+      color: #139BA7;
+}
+
+
+.shop-page .main-wrapper .shop-sidebar h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin:0 0 30px 0;
+}
+
+.shop-sidebar-list h3 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  margin:0 0 30px 0 !important;
+}
+
+
+.shop-page .main-wrapper .shop-sidebar .price-ranger {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 18px 20px 20px 20px;
+  margin-bottom: 55px;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ranger-min-max-block {margin: 0 -10px;}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ranger-min-max-block [class*="col-"] {padding: 0 10px;}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ranger-min-max-block input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ranger-min-max-block label {
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(0,0,0,0.4);
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ui-widget-content {
+  background: #eef2f5;
+  border: none;
+  height:5px;
+  margin-top: 40px;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ui-widget-header {
+  background: #139BA7;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ui-slider-handle {
+  background: #fff;
+  width: 14px;
+  height: 14px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .button-two {
+  margin: 40px auto 0 auto;
+}
+.shop-page .main-wrapper .shop-sidebar .price-ranger .ui-slider-horizontal .ui-slider-handle {
+  top: -5px;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product {
+  padding: 0 0 25px 0;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product img {
+  width: 65px;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product .product {
+  width: calc(100% - 65px);
+  padding-left: 20px;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product .product h5 a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #121212;
+  display: block;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product .product strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+.shop-page .main-wrapper .shop-sidebar .single-popular-product .product ul li {
+  display: inline-block;
+  color: #f9a109;
+  font-size: 15px;
+  margin: 3px 3px 3px 0;
+}
+.shop-page .main-wrapper .shop-sidebar .sidebar-popular-product {margin-bottom: 35px;}
+.shop-page .main-wrapper .shop-sidebar .product-tag ul {margin: 0 -6px}
+.shop-page .main-wrapper .shop-sidebar .product-tag ul li {padding: 0 6px 10px 6px;}
+.shop-page .main-wrapper .shop-sidebar .product-tag ul li a {
+  line-height: 33px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.7);
+  padding: 0 15px;
+  font-size: 14px;
+}
+.shop-page .main-wrapper .shop-sidebar .product-tag ul li a:hover {color: #fff;}
+.shop-page .main-wrapper .shop-large-side {width: 75.2%;}
+.shop-page .all-product-wrapper .single-item img {
+  width: 100%;
+}
+.shop-page .all-product-wrapper .single-item h5 a {
+  font-weight: 500;
+  display: block;
+  color: #121212;
+  margin: 18px 0 10px 0;
+}
+.shop-page .all-product-wrapper .single-item strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+.shop-page .all-product-wrapper .single-item ul li {
+  display: inline-block;
+  color: #f9a109;
+  font-size: 15px;
+  margin-left: 3px;
+}
+.shop-page .all-product-wrapper .single-item a.cart {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgba(0,0,0,0.7);
+  display: block;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.shop-page .all-product-wrapper .single-item:hover a.cart {color: #fff;}
+.shop-page .all-product-wrapper .single-item {
+  margin-bottom: 40px;
+}
+.shop-details .single-product-details .image {
+  width: 35%;
+}
+.shop-details .single-product-details .image ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin: 13px 9px 0 0;
+  cursor: pointer;
+}
+.shop-details .single-product-details .info {
+  width: 65%;
+  padding-left: 45px;
+  position: relative;
+}
+.shop-details .single-product-details .info h3 {font-size: 24px;}
+.shop-details .single-product-details .info ul.rating li {
+  display: inline-block;
+  color: #adadad;
+  position: relative;
+  margin:10px 3px 0 0;
+}
+.shop-details .single-product-details .info ul.rating li .fa {
+  color: #f9a109;
+  font-size: 15px;
+}
+.shop-details .single-product-details .info ul.rating li:nth-child(6) {margin-left: 10px;}
+.shop-details .single-product-details .info ul.rating li:last-child {
+  margin-left: 15px;
+}
+.shop-details .single-product-details .info strong {
+  display: block;
+  font-size: 28px;
+  color: rgba(0,0,0,0.7);
+  font-weight: 600;
+  margin-top: 10px;
+}
+.shop-details .single-product-details .info p {
+  margin: 28px 0 10px 0;
+}
+.shop-details .single-product-details .info h6 {
+  color: #393939;
+  margin-bottom: 15px;
+}
+.shop-details .single-product-details .info input,
+.shop-details .single-product-details .info a {vertical-align: bottom;}
+.shop-details .single-product-details .info input {
+  width: 70px;
+  height: 47px;
+  border: 1px solid #eae8e8;
+  padding: 0 0 0 20px;
+}
+.shop-details .single-product-details .info a {
+  width: 169px;
+  line-height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  margin: 23px 0 0 50px;
+}
+.shop-details .review-tab {margin:55px 0 55px 0;}
+.shop-details .review-tab .nav-tabs {border: none;}
+.shop-details .review-tab .nav-tabs li a {
+  background: #ececec;
+  color: #121212;
+  margin: 0;
+  border: 1px solid #ececec;
+  border-bottom: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  width: 152px;
+  line-height: 32px;
+}
+.shop-details .review-tab .nav-tabs > li.active > a,
+.shop-details .review-tab .nav-tabs > li.active > a:hover,
+.shop-details .review-tab .nav-tabs > li.active > a:focus {
+  background: #fff;
+  border-radius: 0;
+}
+.shop-details .review-tab .tab-pane {
+  padding: 35px 30px 40px 30px;
+  border: 1px solid #ececec;
+  border-radius: 0 0 4px 4px;
+}
+.shop-details .related-product>h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 38px;
+}
+.related-product-slider .item {margin: 0 15px;}
+.related-product-slider.owl-theme .owl-nav [class*=owl-] {
+  font-family: 'font-awesome';
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  font-size: 24px;
+  color: #bbbbbb;
+  margin:0 3px;
+  background: #fff;
+  padding: 0;
+}
+.related-product-slider.owl-theme .owl-nav {
+  position: absolute;
+  top:-60px;
+  right: 15px;
+}
+.shop-page .shop-page-pagination {margin: 0 -3px; padding-top: 20px;}
+.shop-page .shop-page-pagination li {padding: 0 3px;}
+.shop-page .shop-page-pagination li a {
+  line-height: 35px;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+  font-weight: 600;
+  color: rgba(0,0,0,0.3);
+  font-size: 20px;
+  padding: 0 15px;
+}
+.shop-page .shop-page-pagination li:last-child a {
+  background: #464646;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.shop-page .shop-page-pagination li:last-child a:hover,
+.shop-page .shop-page-pagination li a:hover {color: #fff;}
+.shop-page {margin-bottom: 110px;}
+/*---------------------- Event Inner Page ---------------------*/
+.charity-theme .up-coming-event.event-inner-page .single-events {
+  margin: 0 0 50px 0;
+}
+.charity-theme .up-coming-event .single-events .image img {width: 100%;}
+.charity-theme .up-coming-event.event-inner-page .single-events .image {position: relative;}
+.charity-theme .up-coming-event.event-inner-page .single-events .image .date {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top:15px;
+  left:15px;
+  width: 65px;
+  height: 60px;
+  color: #fff;
+  background: #139BA7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 9px;
+}
+.charity-theme .up-coming-event.event-inner-page .single-events .image .date span {
+  display: block;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+}
+.charity-theme .up-coming-event.event-inner-page .single-events .title h5 a {font-size: 22px;}
+/*-------------------------- Event Details -----------------------*/
+.event-details-page .event-large-sidebar .event-title h4 {margin-bottom: 8px;}
+.event-details-page .event-large-sidebar .event-title ul li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  color: #a1a1a1;
+}
+.event-details-page .event-large-sidebar .event-title ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #a1a1a1;
+}
+.event-details-page .event-large-sidebar .event-title ul li:last-child a {color: #139BA7;}
+.event-details-page .event-large-sidebar .event-title {
+  padding: 30px 0 25px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+.event-details-page .event-large-sidebar .mark-text {
+  font-size: 18px;
+  margin: 40px 0 25px 0;
+}
+.event-details-page .event-large-sidebar>ul li {
+  font-weight: 600;
+  color: #393939;
+  font-size: 18px;
+  padding-left: 45px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.event-details-page .event-large-sidebar>ul li i {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: 20px;
+  color: #139BA7;
+  font-weight: normal;
+}
+.event-details-page .event-large-sidebar>ul {margin: 50px 0 80px 0;}
+.event-details-page .event-large-sidebar .related-event h3 {font-size: 28px;}
+.charity-theme .event-details-page .event-large-sidebar .related-event .up-coming-event .single-events .title h5 a {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.charity-theme .event-details-page .event-large-sidebar .related-event .item {margin: 0 15px;}
+.charity-theme .event-details-page {margin-bottom: 100px;}
+
+
+/************************/
+.span_detail{
+  color:gray;
+  font-size: 14px;
+}
+
+.h5_detail{
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.h5_detail + h3{
+  color:#1E9CA7;
+}
+
+.h6_detail{
+  color:#1E9CA7 !important; 
+  margin-bottom: inherit !important;
+  font-size: 15px !important;
+}
+
+.h6_detail > span{
+  color: #111;
+  margin-left: 40px;
+}
+
+
+.azul{
+  color:#1E9CA7 !important;
+}
+
+.center{
+  text-align: center;
+}
+
+h2.azul:before{
+  background-color: #323232 !important;
+}
+
+
+.circulo{
+  width: 35px;
+  line-height: 31px;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  border-radius: 20px;
+  color:#1E9CA7;
+}

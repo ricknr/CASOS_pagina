@@ -1,0 +1,233 @@
+# Translation of Plugins - RD Station - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - RD Station - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-16 15:33:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - RD Station - Stable (latest release)\n"
+
+#: settings/settings_page.php:61
+msgid "Log"
+msgstr "Registro"
+
+#: settings/settings_page.php:92 settings/settings_page.php:120
+msgid "There are conversions that returned an error, check the log for more information"
+msgstr "Hay conversiones que devuelven un error, comprueba el registro para más información"
+
+#: settings/settings_page.php:94
+msgid "Encrypt and Copy"
+msgstr "Cifrar y copiar"
+
+#: settings/settings_fields.php:41
+msgid "Log:"
+msgstr "Registro:"
+
+#: metaboxes/rdcf7.php:43 metaboxes/rdgf.php:42
+msgid "There are conversions that returned an error, check the log in 'RD Station Settings' for more information"
+msgstr "Hay conversiones que devuelven un error, comprueba el registro en los «Ajustes de RD Station» para más información"
+
+#: metaboxes/rdcf7.php:26 metaboxes/rdgf.php:25 settings/settings_page.php:131
+msgid "Create field in RDSM"
+msgstr "Crear un campo en RDSM"
+
+#: metaboxes/rdcf7.php:30 metaboxes/rdgf.php:29 settings/settings_page.php:126
+msgid "The fields on this form have not yet been mapped, you can configure them below or "
+msgstr "Los campos en este formulario aún no han sido asignados, puedes configurarlos a continuación o "
+
+#: metaboxes/rdcf7.php:32 metaboxes/rdgf.php:31 settings/settings_page.php:128
+msgid "click here for more information"
+msgstr "hacer clic aquí para más información"
+
+#: metaboxes/rdcf7.php:36 metaboxes/rdgf.php:35
+msgid "You need to connect to RD Station to map the fields, "
+msgstr "Tienes que conectar con RD Station para asignar los campos, "
+
+#: metaboxes/rdcf7.php:38 metaboxes/rdgf.php:37
+msgid "click here to go to Settings page and than 'Connect to RD Station'"
+msgstr "haz clic aquí para ir a la página de ajustes y, después, a «Conectar con RD Station»"
+
+#: metaboxes/rdcf7.php:41 metaboxes/rdgf.php:40 settings/settings_page.php:132
+msgid "To see the fields created in RDSM reload page."
+msgstr "Para ver los campos creados en RDSM, recarga la página."
+
+#: settings/settings_page.php:114
+msgid "You need to connect to RD Station to map the fields, click in 'Connect to RD Station' to login"
+msgstr "Tienes que conectar con RD Station para asignar los campos, haz clic en «Conectar con RD Station» para acceder"
+
+#: settings/settings_fields.php:31
+msgid "Field Mapping"
+msgstr "Asignación del campo"
+
+#: rd_custom_post_type.php:15
+msgid "All integrations: RD Station + "
+msgstr "Todas las integraciones: RD Station + "
+
+#: rd_custom_post_type.php:16
+msgid "Integration "
+msgstr "Integración "
+
+#: rd_custom_post_type.php:32
+msgid "Integration of "
+msgstr "Integración de "
+
+#: settings/settings_page.php:179
+msgid "Some custom themes don't include the WordPress global footer, causing the tracking code to not work."
+msgstr "Algunos temas personalizados no incluyen el pie de página global de WordPress, lo que hace que no funcione el código de seguimiento."
+
+#: settings/settings_fields.php:13
+msgid "Tracking Code:"
+msgstr "Código de seguimiento:"
+
+#: settings/settings_page.php:23
+msgid "RD Station Integration Settings"
+msgstr "Ajustes de integración de RD Station"
+
+#: settings/settings_page.php:33
+msgid "The plugin is connected and allows the use of Tracking Code, pop-ups and form integrations. If you want to disconnect, just click the button below."
+msgstr "El plugin está conectado y permite el uso del código de seguimiento, ventanas emergentes e integraciones de formularios. Si quieres desconectar, simplemente haz clic en el siguiente botón."
+
+#: settings/settings_page.php:37
+msgid "Disconnect from RD Station"
+msgstr "Desconectar de RD Station"
+
+#: settings/settings_page.php:28
+msgid "It automatically activates the RD Station Marketing tracking code in your Wordpress pages, enabling features such as Lead Tracking and Pop ups. It also integrates the contact forms that capture Leads that convert in your website forms directly to RD Station Marketing."
+msgstr "Activa automáticamente el código de seguimiento de RD Station Marketing en tus páginas de WordPress, activando características tales como el seguimiento de clientes potenciales y ventanas emergentes. También integra los formularios de contacto que capturan clientes potenciales que conviertan en los formularios de tu web directamente a RD Station Marketing."
+
+#: settings/settings_page.php:43
+msgid "To continue to install the Tracking Code, we need first to confirm your access permissions."
+msgstr "Para continuar con la instalación del código de seguimiento, primero necesitamos confirmar tus permisos de acceso."
+
+#: settings/settings_page.php:46
+msgid "Connect to RD Station"
+msgstr "Conectar con RD Station"
+
+#: settings/settings_page.php:57
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: settings/settings_page.php:159
+msgid "Off"
+msgstr "Inactivo"
+
+#: settings/settings_page.php:160
+msgid "On"
+msgstr "Activo"
+
+#: settings/settings_page.php:163
+msgid "You need to connect to RD Station before enable/disable this feature."
+msgstr "Tienes que conectar con RD Station antes de activar/desactivar esta característica."
+
+#: settings/settings_page.php:171
+msgid "Warning: validate it on RD Station Marketing:"
+msgstr "Advertencia: valídalo en RD Station Marketing:"
+
+#: settings/settings_page.php:173
+msgid "Validate"
+msgstr "Validar"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "RD Station"
+msgstr "RD Station"
+
+#. Author URI of the plugin
+msgid "https://www.rdstation.com/"
+msgstr "https://www.rdstation.com/"
+
+#: metaboxes/RD_Metabox.php:13
+msgid "Conversion identifier"
+msgstr "Identificador de conversión"
+
+#: metaboxes/RD_Metabox.php:21
+msgid "Select a form to integrate with RD Station"
+msgstr "Selecciona un formulario para integrar con RD Station"
+
+#: metaboxes/RD_Metabox.php:33
+msgid "This identifier will help you to identify the Lead source."
+msgstr "Este identificador te ayudará a identificar el origen del cliente potencial."
+
+#: metaboxes/add_custom_scripts.php:49
+msgid "Scripts added here will be inserted inside the <strong><code>&lt;head&gt</code> tag</strong>"
+msgstr "Los scripts añadidos aquí serán insertados dentro de la etiqueta <strong><code>&lt;head&gt</code></strong>"
+
+#: metaboxes/add_custom_scripts.php:61
+msgid "Scripts added here will be inserted <strong>before closing &lt;/body&gt; tag</strong>"
+msgstr "Los scripts añadidos aquí serán insertados <strong> antes de cerrar la etiqueta &lt;/body&gt;</strong>"
+
+#: metaboxes/add_custom_scripts.php:77 metaboxes/add_custom_scripts.php:85
+msgid "Add RD Station scripts"
+msgstr "Añadir scripts de RD Station"
+
+#: metaboxes/rdcf7.php:13
+msgid "No forms have been found. <a href='admin.php?page=wpcf7-new'>Click here to create a new one.</a>"
+msgstr "No se han encontrado formularios. <a href='admin.php?page=wpcf7-new'>Haz clic aquí para crear uno nuevo.</a>"
+
+#: metaboxes/rdgf.php:12
+msgid "No forms have been found. <a href='admin.php?page=gf_new_form'>Click here to create a new one.</a>"
+msgstr "No se han encontrado formularios. <a href='admin.php?page=gf_new_form'>Haz clic aquí para crear uno nuevo.</a>"
+
+#: metaboxes/rdcf7.php:24 metaboxes/rdgf.php:23 settings/settings_page.php:123
+msgid "Map the fields below according to their names in RD Station."
+msgstr "Asigna los siguientes campos según sus nombres en RD Station."
+
+#: rd_custom_post_type.php:17
+msgid "Create integration"
+msgstr "Crear una integración"
+
+#: rd_custom_post_type.php:18
+msgid "Create new integration"
+msgstr "Crear una nueva integración"
+
+#: rd_custom_post_type.php:19
+msgid "Edit integration"
+msgstr "Editar la integración"
+
+#: rd_custom_post_type.php:20
+msgid "New integration"
+msgstr "Nueva integración"
+
+#: rd_custom_post_type.php:21
+msgid "All integrations"
+msgstr "Todas las integraciones"
+
+#: rd_custom_post_type.php:22
+msgid "View integrations"
+msgstr "Ver las integraciones"
+
+#: rd_custom_post_type.php:23
+msgid "Search integrations"
+msgstr "Buscar integraciones"
+
+#: rd_custom_post_type.php:24
+msgid "No integration found"
+msgstr "No se han encontrado integraciones"
+
+#: rd_custom_post_type.php:25
+msgid "No integration found in the trash"
+msgstr "No se han encontrado integraciones en la papelera"
+
+#: settings/settings_fields.php:23
+msgid "Identifier from checkout conversions"
+msgstr "Identificador de conversiones de pagos"
+
+#: settings/settings_menu.php:8 settings/settings_menu.php:9
+msgid "RD Station Settings"
+msgstr "Ajustes de RD Station"
+
+#: settings/settings_page.php:53
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/integracao-rdstation"
+msgstr "https://es.wordpress.org/plugins/integracao-rdstation"
+
+#. Description of the plugin
+msgid "Integre seus formulários de contato do WordPress com o RD Station"
+msgstr "Integra tus formularios de contacto de WordPress con RD Station"

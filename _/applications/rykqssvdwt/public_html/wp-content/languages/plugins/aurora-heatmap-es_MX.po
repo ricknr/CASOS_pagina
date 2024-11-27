@@ -1,0 +1,609 @@
+# Translation of Plugins - Aurora Heatmap - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - Aurora Heatmap - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-12 13:15:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - Aurora Heatmap - Stable (latest release)\n"
+
+#. Translators: JSON Object format to freemius override_i18n. Example for
+#. '{"hey-x": "Hello %s,"}'. See
+#. https://github.com/Freemius/wordpress-sdk/blob/master/includes/i18n.php
+#: aurora-heatmap.php:50
+msgctxt "freemius-override-i18n"
+msgid "{}"
+msgstr "{}"
+
+#: class-aurora-heatmap-list.php:291
+msgid "sorry, unknown URL"
+msgstr "Lo siento, URL desconocida"
+
+#: class-aurora-heatmap-list.php:285
+msgid "no title"
+msgstr "sin título"
+
+#: class-aurora-heatmap-basic.php:970
+msgid "For avoiding the record of breakaway at the automatic transfer source such as JavaScript redirect."
+msgstr "Para evitar el registro de separación en la fuente de transferencia automática, como la redirección de JavaScript."
+
+#: class-aurora-heatmap-basic.php:969
+msgid "Milliseconds to delay Ajax communication from page load. The default is 3000."
+msgstr "Milisegundos de retardo de la comunicación Ajax desde la carga de la página. El valor predeterminado es 3000."
+
+#: class-aurora-heatmap-basic.php:965
+msgid "Ajax delay time"
+msgstr "Tiempo de retardo de Ajax"
+
+#: class-aurora-heatmap-basic.php:1117
+msgid "Specify the unread rate to warn."
+msgstr "Especifica la tasa de no leídos para advertir."
+
+#: class-aurora-heatmap-basic.php:1113
+msgid "Warning unread rate"
+msgstr "Advertencia de tasa de no leídos"
+
+#: class-aurora-heatmap-basic.php:1097
+msgid "Specify the minimum number of accesses per week per page to prevent false detection."
+msgstr "Especifica el número mínimo de accesos por semana por página para evitar falsas detecciones."
+
+#: class-aurora-heatmap-basic.php:1093
+msgid "Minimum number of accesses"
+msgstr "Número mínimo de accesos"
+
+#: class-aurora-heatmap-basic.php:1081
+msgid "Recommended is from 20% to 50%."
+msgstr "Lo recomendado es desde 20% hasta 50%."
+
+#. translators: %s: default value.
+#: class-aurora-heatmap-basic.php:1079 class-aurora-heatmap-basic.php:1101
+#: class-aurora-heatmap-basic.php:1121
+msgid "The default is %s."
+msgstr "El valor predeterminado es %s."
+
+#: class-aurora-heatmap-basic.php:1073
+msgid "For example, 25% count visits where only 25% of the content has been read."
+msgstr "Por ejemplo, el 25% cuenta las visitas en las que solo se ha leído el 25% del contenido."
+
+#: class-aurora-heatmap-basic.php:1070
+msgid "Specify the breakaway position that is considered unread as a percentage of the content height."
+msgstr "Especifica la posición de separación que se considera no leído como un porcentaje de la altura del contenido."
+
+#: class-aurora-heatmap-basic.php:1066
+msgid "Unread threshold"
+msgstr "Umbral de no leídos"
+
+#: class-aurora-heatmap-basic.php:1055
+msgid "If also required in the index / archive page, add the following HTML to the end of content block in the template."
+msgstr "Si también es necesario en la página de inicio/archivo, añade el siguiente HTML al final del bloque de contenido en la plantilla."
+
+#: class-aurora-heatmap-basic.php:1053
+msgid "The marker is a zero px element whose coordinates can be obtained."
+msgstr "El marcador es un elemento de cero píxeles cuyas coordenadas se pueden obtener."
+
+#: class-aurora-heatmap-basic.php:1052
+msgid "Whether to output the content end marker to post / page. Long footers can be ignored."
+msgstr "Si se debe mostrar el marcador de final de contenido de la entrada o página. Los pies de página grandes pueden ignorarse."
+
+#: class-aurora-heatmap-basic.php:1048
+msgid "Content end marker"
+msgstr "Marcador del final del contenido"
+
+#: class-aurora-heatmap-basic.php:955
+msgid "The top page (first page of the front page) is always reported regardless of the setting."
+msgstr "La página superior (la primera página de la portada) siempre se informa independientemente del ajuste."
+
+#: class-aurora-heatmap-basic.php:954
+msgid "Control reporting for archive pages, error 404 pages, search result pages, etc."
+msgstr "Informe de control de las páginas de archivo, páginas de error 404, páginas de resultados de búsqueda, etc."
+
+#: class-aurora-heatmap-basic.php:950
+msgid "Non-singular pages"
+msgstr "Páginas no individuales"
+
+#: class-aurora-heatmap-basic.php:904
+msgid "Do not output"
+msgstr "No mostrar"
+
+#: class-aurora-heatmap-basic.php:903
+msgid "Output"
+msgstr "Mostrar"
+
+#: class-aurora-heatmap-basic.php:867
+msgid "Do not report"
+msgstr "No informar"
+
+#: class-aurora-heatmap-basic.php:866
+msgid "Report"
+msgstr "Informar"
+
+#: class-aurora-heatmap-basic.php:508
+msgid "( empty )"
+msgstr "(vacío)"
+
+#: class-aurora-heatmap-basic.php:460 class-aurora-heatmap-basic.php:808
+msgid "Unread Detection"
+msgstr "Detección de no leídos"
+
+#: class-aurora-heatmap-basic.php:455
+msgid "Heatmap List"
+msgstr "Lista de mapas de calor"
+
+#. translators: %1$s: from %2$s: to %3$d: percentage %4$.1f: about %5$d total
+#. %6$d: height.
+#: aurora-heatmap.php:79
+msgid ""
+"From %1$s to %2$s.\n"
+"%3$d%% (about %4$.1f of %5$d, average height is %6$d px)"
+msgstr ""
+"Desde %1$s hasta %2$s.\n"
+"%3$d%% (aproximadamente %4$.1f de %5$d, la altura media es %6$d px)"
+
+#: aurora-heatmap.php:77
+msgctxt "Date Format"
+msgid "M jS"
+msgstr "d \\d\\e M"
+
+#: aurora-heatmap.php:76
+msgctxt "Date Format"
+msgid "M jS, Y"
+msgstr "d/M/Y"
+
+#: aurora-heatmap.php:75
+msgid "Rate where only 25% of the content was read. (Red)"
+msgstr "Tasa donde solo se ha leído el 25% del contenido. (Rojo)"
+
+#: aurora-heatmap.php:74
+msgid "Rate where only 50% of the content was read. (Orange)"
+msgstr "Tasa donde solo se ha leído el 50% del contenido. (Naranja)"
+
+#: aurora-heatmap.php:73
+msgid "Rate where only 75% of the content was read. (Yellow-green)"
+msgstr "Tasa donde solo se ha leído el 75% del contenido. (Amarillo-verde)"
+
+#: aurora-heatmap.php:72
+msgid "Unread ratio for 6 weeks up to last week. This week is calculated on the next Monday."
+msgstr "Proporción de no leídos durante 6 semanas hasta la semana pasada. Esta semana se calcula el próximo lunes."
+
+#: aurora-heatmap.php:71
+msgid "Detect pages that are not read enough (pages with a high unread rate). It can be used as a clue for content improvement."
+msgstr "Detecta páginas que no se leen lo suficiente (páginas con una alta tasa de no leídos). Puede utilizarse como pista para mejorar el contenido."
+
+#: aurora-heatmap.php:70 class-aurora-heatmap-basic.php:1044
+msgid "Unread detection"
+msgstr "Detección de no leídos"
+
+#: class-aurora-heatmap-basic.php:1029
+msgid "The following parameters for WordPress are always displayed individually."
+msgstr "Los siguientes parámetros de WordPress siempre se muestran individualmente."
+
+#: class-aurora-heatmap-basic.php:1027
+msgid "In the premium version, you can specify exception parameters separated by commas. For example, <code>utm_source, utm_medium</code>."
+msgstr "En la versión premium, puedes especificar parámetros de excepción separados por comas. Por ejemplo, <code>utm_source, utm_medium</code>."
+
+#: class-aurora-heatmap-basic.php:891 class-aurora-heatmap-basic.php:897
+msgid "Except for the following comma-separated parameters:"
+msgstr "Excepto para los siguientes parámetros separados por comas:"
+
+#: class-aurora-heatmap-basic.php:883 class-aurora-heatmap-basic.php:889
+msgid "Integrated display"
+msgstr "Visualización integrada"
+
+#: class-aurora-heatmap-basic.php:810
+msgid "Advanced URL Optimization"
+msgstr "Optimización avanzada de URL"
+
+#: class-aurora-heatmap-basic.php:809
+msgid "URL Optimization"
+msgstr "Optimización de URL"
+
+#: class-aurora-heatmap-basic.php:1026
+msgid "Whether to distinguish <code>utm_source=google</code>, <code>utm_medium=organic</code>, etc. from <code>https://example.com/?p=123&utm_source=google&utm_medium=organic</code>."
+msgstr "Si se debe distinguir <code>utm_source=google</code>, <code>utm_medium=organic</code>, etc. de <code>https://ejemplo.com/?p=123&utm_source=google&utm_medium=organic</code>."
+
+#: class-aurora-heatmap-basic.php:1012
+msgid "Whether to distinguish <code>#top</code> from <code>https://example.com/?p=123#top</code>."
+msgstr "Si se debe distinguir <code>#top</code> de <code>https://ejemplo.com/?p=123#top</code>."
+
+#: class-aurora-heatmap-basic.php:1040 class-aurora-heatmap-basic.php:1165
+msgid "Counted High accuracy mode data will remain as set, but standard mode data will be deleted. This cannot be restored."
+msgstr "Los datos contados del modo de alta precisión permanecerán como se establecieron, pero los datos del modo estándar se eliminarán. Esto no se puede restaurar."
+
+#: class-aurora-heatmap-basic.php:990
+msgid "The default is the latest 3,000 points. Adjust according to server performance."
+msgstr "El valor predeterminado son los últimos 3.000 puntos. Ajústalo de acuerdo al rendimiento del servidor."
+
+#: class-aurora-heatmap-basic.php:986
+msgid "Number of drawing points"
+msgstr "Número de puntos de dibujo"
+
+#: class-aurora-heatmap-basic.php:874
+msgid "1000"
+msgstr "1000"
+
+#: class-aurora-heatmap-basic.php:873
+msgid "3000"
+msgstr "3000"
+
+#: class-aurora-heatmap-basic.php:872
+msgid "10000"
+msgstr "10000"
+
+#: class-aurora-heatmap-basic.php:871
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: class-aurora-heatmap-list.php:117 class-aurora-heatmap-list.php:149
+msgctxt "List_Table"
+msgid "Mobile Attention"
+msgstr "Atención en móvil"
+
+#: class-aurora-heatmap-list.php:116 class-aurora-heatmap-list.php:148
+msgctxt "List_Table"
+msgid "Mobile Breakaway"
+msgstr "Separación en móvil"
+
+#: class-aurora-heatmap-list.php:115 class-aurora-heatmap-list.php:147
+msgctxt "List_Table"
+msgid "Mobile Click"
+msgstr "Clic en móvil"
+
+#: class-aurora-heatmap-list.php:114 class-aurora-heatmap-list.php:146
+msgctxt "List_Table"
+msgid "PC Attention"
+msgstr "Atención en PC"
+
+#: class-aurora-heatmap-list.php:113 class-aurora-heatmap-list.php:145
+msgctxt "List_Table"
+msgid "PC Breakaway"
+msgstr "Separación en PC"
+
+#: class-aurora-heatmap-list.php:112 class-aurora-heatmap-list.php:144
+msgctxt "List_Table"
+msgid "PC Click"
+msgstr "Clic en PC"
+
+#: class-aurora-heatmap-basic.php:940
+msgid "For high accuracy, data of conditions narrowed down from the standard is saved."
+msgstr "Para una alta precisión, se guardan los datos de las condiciones reducidas al estándar."
+
+#: class-aurora-heatmap-basic.php:748
+msgid "Search page"
+msgstr "Buscar página"
+
+#. Translators: JSON Object format to freemius override_i18n. Example for
+#. '{"hey-x": "Hello %s,"}'. See
+#. https://github.com/Freemius/wordpress-sdk/blob/master/includes/i18n.php
+#: aurora-heatmap.php:51
+msgid "Help"
+msgstr "Ayuda"
+
+#: class-aurora-heatmap-basic.php:710
+msgid "At the 90 display position, 10% of users have left."
+msgstr "La posición de la pantalla en 90, indica que el 10% de los usuarios se ha ido."
+
+#: class-aurora-heatmap-basic.php:939
+msgid "The default is high accuracy. If the count is not enough, try the standard mode."
+msgstr "El valor predeterminado es alta precisión. Si el recuento no es suficiente, prueba el modo estándar."
+
+#: class-aurora-heatmap-basic.php:720
+msgid "Yellow indicates the strongest reaction."
+msgstr "El amarillo indica la reacción más fuerte."
+
+#: class-aurora-heatmap-basic.php:719
+msgid "Attention heatmap determines where the user is watching."
+msgstr "El mapa de calor de atención determina dónde está mirando el usuario."
+
+#: class-aurora-heatmap-basic.php:709
+msgid "Breakaway heatmap determines how far the page has been read."
+msgstr "El mapa de calor de separación determina hasta qué punto se ha leído la página."
+
+#: class-aurora-heatmap-basic.php:700
+msgid "You can find interesting places, text selection, lead wire functions, and false clicks that impair the user experience."
+msgstr "Puedes encontrar lugares interesantes, selección de texto, funciones de cables conductores y clics falsos que perjudican la experiencia del usuario."
+
+#: class-aurora-heatmap-basic.php:699
+msgid "Click heatmap shows where a user clicks the mouse, or where it is tapped on mobile."
+msgstr "El mapa de calor de clics muestra dónde un usuario hace clic con el mouse o dónde se toca en el dispositivo móvil."
+
+#. translators: %s: Your Profile.
+#: aurora-heatmap.php:68
+msgctxt "Free Plan"
+msgid "Restart the user registration"
+msgstr "Reiniciar el registro de usuario"
+
+#. translators: %s: Your Profile.
+#: aurora-heatmap.php:67
+msgctxt "Free Plan"
+msgid "Change the email address of <a href=\"profile.php\">%s</a> and restart the user registration with the following button."
+msgstr "Cambia la dirección de correo electrónico de <a href=\"profile.php\">%s</a> y reinicia el registro de usuario desde el botón a continuación."
+
+#: aurora-heatmap.php:65
+msgctxt "Free Plan"
+msgid "If you can't receive authentication email"
+msgstr "Si no puedes recibir el correo electrónico de identificación"
+
+#: aurora-heatmap.php:63
+msgctxt "Free Plan"
+msgid "<b>Delete</b> the premium version plugin."
+msgstr "<b>Elimina</b> la versión premium del plugin."
+
+#: aurora-heatmap.php:62
+msgctxt "Free Plan"
+msgid "<b>Install</b> / <b>activate</b> <a href=\"plugin-install.php?s=aurora-heatmap&amp;tab=search&amp;type=term\">the free version</a> plugin."
+msgstr "<b>Instala</b> y <b>activa</b> la <a href=\"plugin-install.php?s=aurora-heatmap&amp;tab=search&amp;type=term\">versión gratuita</a> del plugin."
+
+#: aurora-heatmap.php:61
+msgctxt "Free Plan"
+msgid "<b>Stop</b> the premium version plugin."
+msgstr "<b>Desactiva</b> la versión premium del plugin."
+
+#: aurora-heatmap.php:60
+msgctxt "Free Plan"
+msgid "Migrate data to the free version"
+msgstr "Migra los datos a la versión gratuita"
+
+#: aurora-heatmap.php:58
+msgctxt "Free Plan"
+msgid "It is also possible to take over the current data."
+msgstr "También es posible hacerse cargo de los datos actuales."
+
+#: aurora-heatmap.php:57
+msgctxt "Free Plan"
+msgid "However, it is not possible to update to the latest version of the premium version, so we recommend that you replace the WordPress.org plugin directory with the free version."
+msgstr "Sin embargo, no es posible actualizar a la última versión de la versión premium, por lo que te recomendamos que la reemplaces con la versión gratuita del directorio de plugins de WordPress.org."
+
+#: aurora-heatmap.php:56
+msgctxt "Free Plan"
+msgid "The license has expired, but the free plan can still be used."
+msgstr "La licencia ha caducado, pero el plan gratuito aún se puede utilizar."
+
+#. translators: %1$s: URL of Upgrade in this plugin. %2$s: URL of Aurora
+#. Heatmap Plugin on the WordPress.org. %3$s: URL of Help in this plugin.
+#: aurora-heatmap.php:55
+msgctxt "Free Plan"
+msgid "About the free plan"
+msgstr "Acerca del plan gratuito"
+
+#. translators: %1$s: URL of Upgrade in this plugin. %2$s: URL of Aurora
+#. Heatmap Plugin on the WordPress.org. %3$s: URL of Help in this plugin.
+#: aurora-heatmap.php:54
+msgctxt "Free Plan"
+msgid "To use the latest version, we recommend the <a href=\"%1$s\">lisense agreement</a> or the <a href=\"%2$s\">free version</a>. See the <a href=\"%3$s\">help</a> for details."
+msgstr "Para usar la última versión, recomendamos leer el <a href=\"%1$s\">acuerdo de licencia</a> o la <a href=\"%2$s\">versión gratuita</a>. Consulta la <a href=\"%3$s\">ayuda</a> para más detalles."
+
+#: class-aurora-heatmap-list.php:62 class-aurora-heatmap-list.php:111
+#: class-aurora-heatmap-list.php:143
+msgctxt "List_Table"
+msgid "Page"
+msgstr "Página"
+
+#: aurora-heatmap.php:52
+msgctxt "Free Plan"
+msgid "Due to unlicensed or expired licenses, the premium version features, including <b>premium version plugin updates</b>, are limited."
+msgstr "Debido a no tener licencias o tenerlas vencidas, las funcionalidades de la versión premium, incluidas las <b>actualizaciones del plugin de la versión premium</b>, están limitadas."
+
+#: class-aurora-heatmap-list.php:175
+msgctxt "List_Table"
+msgid "Delete"
+msgstr "Borrar"
+
+#: class-aurora-heatmap-basic.php:1040 class-aurora-heatmap-basic.php:1165
+msgid "Save"
+msgstr "Guardar"
+
+#: class-aurora-heatmap-basic.php:1022
+msgid "URL parameter"
+msgstr "Parámetro de URL"
+
+#: class-aurora-heatmap-basic.php:1008
+msgid "URL hash"
+msgstr "Hash de URL"
+
+#: class-aurora-heatmap-basic.php:1000
+msgid "Count bar"
+msgstr "Barra de recuento"
+
+#: class-aurora-heatmap-basic.php:935
+msgid "Accuracy"
+msgstr "Precisión"
+
+#: class-aurora-heatmap-basic.php:982
+msgid "Display settings"
+msgstr "Ajustes de visualización"
+
+#: class-aurora-heatmap-basic.php:979
+msgid "Bulk data deletion"
+msgstr "Borrado de datos en lotes"
+
+#: class-aurora-heatmap-basic.php:979
+msgid "Are you sure you want to delete all the heatmap data?"
+msgstr "¿Seguro de que quieres borrar todos los datos de mapas de calor?"
+
+#: class-aurora-heatmap-basic.php:926
+msgid "Retension period"
+msgstr "Periodo de retención"
+
+#: class-aurora-heatmap-basic.php:922
+msgid "Data settings"
+msgstr "Ajustes de los datos"
+
+#: class-aurora-heatmap-basic.php:884 class-aurora-heatmap-basic.php:895
+msgid "Individual display"
+msgstr "Visualización individual"
+
+#: class-aurora-heatmap-basic.php:879
+msgid "Hide"
+msgstr "Ocultar"
+
+#: class-aurora-heatmap-basic.php:878
+msgid "Show"
+msgstr "Mostrar"
+
+#: class-aurora-heatmap-basic.php:862
+msgid "Standard"
+msgstr "Estándar"
+
+#: class-aurora-heatmap-basic.php:861
+msgid "High accuracy"
+msgstr "Alta precisión"
+
+#: class-aurora-heatmap-basic.php:857
+msgid "6 months"
+msgstr "6 meses"
+
+#: class-aurora-heatmap-basic.php:856
+msgid "3 months"
+msgstr "3 meses"
+
+#: class-aurora-heatmap-basic.php:855
+msgid "1 month"
+msgstr "1 mes"
+
+#: class-aurora-heatmap-basic.php:839
+msgid "<b>Delete</b> the free version plugin."
+msgstr "<b>Borra</b> la versión gratuita del plugin."
+
+#: class-aurora-heatmap-basic.php:838
+msgid "<b>User registration</b> / <b>license agreement</b> / <b>update plugin</b>."
+msgstr "<b>Regístrate,</b> <b>acepta el acuerdo de licencia </b> y <b>actualiza el plugin</b>."
+
+#: class-aurora-heatmap-basic.php:837
+msgid "<b>Install</b> / <b>activate</b> the installer."
+msgstr "<b>Instala</b> y <b>activa</b> el instalador."
+
+#: class-aurora-heatmap-basic.php:836
+msgid "<b>Stop</b> the free version plugin."
+msgstr "<b>Desactiva</b> la versión gratuita del plugin."
+
+#: class-aurora-heatmap-basic.php:835
+msgid "<a href=\"https://market.seous.info/aurora-heatmap/premium\">Get the installer</a> of the premium version plugin."
+msgstr "<a href=\"https://market.seous.info/aurora-heatmap/premium\">Obtén el instalador</a> de la versión premium del plugin."
+
+#: class-aurora-heatmap-basic.php:833
+msgid "Migrate data to the premium version"
+msgstr "Migrar los datos a la versión premium"
+
+#: class-aurora-heatmap-basic.php:821
+msgid "<b>*</b> The free plan is a premium version with no license or expired."
+msgstr "<b>*</b> El plan gratuito es una versión premium sin licencia ni caducidad."
+
+#: class-aurora-heatmap-basic.php:812
+msgid "Update to the Latest Version"
+msgstr "Actualizar a la última versión"
+
+#: class-aurora-heatmap-basic.php:811
+msgid "Extended Retension Period (6 months)"
+msgstr "Periodo de retención extendido (6 meses)"
+
+#: class-aurora-heatmap-basic.php:438 class-aurora-heatmap-basic.php:807
+msgid "Attention Heatmap"
+msgstr "Mapas de calor de atención"
+
+#: class-aurora-heatmap-basic.php:437 class-aurora-heatmap-basic.php:806
+msgid "Breakaway Heatmap"
+msgstr "Mapas de calor de separación"
+
+#: class-aurora-heatmap-basic.php:436 class-aurora-heatmap-basic.php:689
+#: class-aurora-heatmap-basic.php:805
+msgid "Click Heatmap"
+msgstr "Mapas de calor de clics"
+
+#: class-aurora-heatmap-basic.php:804
+msgid "Priority Email Support"
+msgstr "Soporte prioritario por correo electrónico"
+
+#: class-aurora-heatmap-basic.php:792
+msgid "Standard Plan"
+msgstr "Plan estándar"
+
+#: class-aurora-heatmap-basic.php:791
+msgid "Free Plan"
+msgstr "Plan gratuito"
+
+#: class-aurora-heatmap-basic.php:788
+msgid "Premium Version"
+msgstr "Versión premium"
+
+#: class-aurora-heatmap-basic.php:787
+msgid "Free Version"
+msgstr "Versión gratuita"
+
+#: class-aurora-heatmap-basic.php:777
+msgid "If you like this plugin, please consider upgrading!"
+msgstr "Si te gusta este plugin, por favor, ¡considera actualizar!"
+
+#: class-aurora-heatmap-basic.php:738
+msgid "Mobile"
+msgstr "Móvil"
+
+#: class-aurora-heatmap-basic.php:737
+msgid "PC"
+msgstr "PC"
+
+#: class-aurora-heatmap-basic.php:643
+msgid "Deleted heatmap data."
+msgstr "Datos de mapas de calor borrados."
+
+#: class-aurora-heatmap-basic.php:639
+msgid "Updated options."
+msgstr "Opciones actualizadas."
+
+#: class-aurora-heatmap-basic.php:741
+msgid "Attention"
+msgstr "Atención"
+
+#: class-aurora-heatmap-basic.php:740
+msgid "Breakaway"
+msgstr "Separación"
+
+#: class-aurora-heatmap-basic.php:739
+msgid "Click"
+msgstr "Clic"
+
+#: class-aurora-heatmap-basic.php:470
+msgid "Premium Version Information"
+msgstr "Información de la versión premium"
+
+#: class-aurora-heatmap-basic.php:465
+msgid "Settings"
+msgstr "Ajustes"
+
+#: aurora-heatmap.php:26
+msgid "Fail to activate. Another version of Aurora Heatmap is already active."
+msgstr "Error al activar. Otra versión de Aurora Heatmap ya está activa."
+
+#. Author URI of the plugin
+msgid "https://seous.info/"
+msgstr "https://seous.info/"
+
+#. Author of the plugin
+msgid "R3098"
+msgstr "R3098"
+
+#. Description of the plugin
+#: aurora-heatmap.php:47
+msgid "Beautiful like an aurora! A simple WordPress heatmap that can be completed with just a plugin."
+msgstr "¡Hermoso como una aurora! Un simple mapa de calor para WordPress que se puede completar con solo un plugin."
+
+#. Plugin URI of the plugin
+msgid "https://market.seous.info/aurora-heatmap"
+msgstr "https://market.seous.info/aurora-heatmap"
+
+#. Plugin Name of the plugin
+#: aurora-heatmap.php:46 class-aurora-heatmap-basic.php:411
+#: class-aurora-heatmap-basic.php:412 class-aurora-heatmap-basic.php:625
+msgid "Aurora Heatmap"
+msgstr "Aurora Heatmap"
+
+#: class-aurora-heatmap-basic.php:782
+msgid "Features comparison"
+msgstr "Comparación de funcionalidades"
+
+#: class-aurora-heatmap-basic.php:775
+msgid "<b>Aurora Heatmap</b> has a premium version with extended features."
+msgstr "<b>Aurora Heatmap</b> tiene una versión premium con funcionalidades ampliadas."

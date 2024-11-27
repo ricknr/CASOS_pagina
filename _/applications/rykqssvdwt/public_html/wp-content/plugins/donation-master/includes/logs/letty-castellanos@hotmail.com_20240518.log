@@ -1,0 +1,16 @@
+Start: 2024-05-18 16:50:12
+Initalize Payment
+Donor added
+Openpay request is failed due to:3012
+Se requiere solicitar al banco autorización para realizar este pago.
+Start: 2024-05-18 16:55:55
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been successfully made
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_success mail
+End: 2024-05-18 16:56:00

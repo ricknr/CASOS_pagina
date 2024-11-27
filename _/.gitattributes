@@ -1,0 +1,2 @@
+caritas.tar.gz filter=lfs diff=lfs merge=lfs -text
+caritasmty.zip filter=lfs diff=lfs merge=lfs -text

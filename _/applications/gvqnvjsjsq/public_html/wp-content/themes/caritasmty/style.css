@@ -1,0 +1,107 @@
+/*
+Theme Name: Cáritas de Monterrey
+Theme URI: https://espacios.net.mx/
+Author: Espacios de México
+Author URI: https://espacios.net.mx/
+Description: Tema para el sitio de Cáritas de Monterrey
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, microformats, bootstrap, responsive, light
+Text Domain: caritasmty
+
+*/
+
+#donaciones_form .payment-options {
+  margin-bottom: 15px;
+}
+
+#donaciones_form .payment-options img {
+  max-width: 100%;
+}
+
+#donaciones_form .secure img {
+  max-width: 60px;
+}
+
+#donaciones_form .secure strong {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: #c32cb0;
+}
+
+/* Donation Form :: Vertical */
+
+.donations.vertical .payment_cards {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.donations.vertical .payment_cards .payment-options {
+  margin-bottom: 0;
+  order: 2;
+}
+
+.donations.vertical .payment_cards .payment-options img {
+  max-width: 320px !important;
+}
+
+/* Cookie Notice */
+
+.cdp-cookies-alerta.cdp-cookies-textos-izq .cdp-cookies-texto h4,
+.cdp-cookies-alerta.cdp-cookies-textos-izq .cdp-cookies-texto p {
+  text-align: center !important;
+}
+
+/* Media Queries */
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  #donaciones_form .secure strong {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .donations.vertical .payment_cards {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0 !important;
+    order: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  #donaciones_form .payment_cards {
+    order: 2;
+    margin-top: 30px;
+  }
+
+  #donaciones_form .payment-options img,
+  .donations.vertical .payment_cards .payment-options img {
+    max-width: 250px !important;
+  }
+
+  #donaciones_form .secure {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  #donaciones_form .secure img {
+    max-width: 36px;
+  }
+
+  /* Donation Form :: Vertical */
+  .donations.vertical .payment_cards {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+  }
+}
+
+/* Uber Campaing */
+.first-uber-frame  {
+
+}

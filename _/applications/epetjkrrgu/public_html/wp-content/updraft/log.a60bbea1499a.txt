@@ -1,0 +1,389 @@
+0000.000 (0) Opened log file at time: Wed, 05 Sep 2018 22:04:17 +0000 on https://www.caritas.org.mx
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.7 PHP: 5.6.36-0+deb8u1 (fpm-fcgi, Linux 187653.cloudwaysapps.com 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1 (2018-04-28) x86_64) MySQL: 5.5.60 WPLANG: es_ES Server: Apache/2.4.10 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.6M | 30M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 34359.2 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.003 (0) Semaphore (fd, w0lap_options) being initialised
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.006 (0) Set semaphore last lock (fd) time to 2018-09-05 22:04:17
+0000.006 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=a60bbea1499a, begun at=1536185057 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1536185357) in case this run gets aborted
+0000.016 (0) Checking if we have a zip executable available
+0000.016 (0) Testing: /usr/bin/zip
+0000.020 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.021 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.021 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.022 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.022 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.026 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.027 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.031 (0) Working binary zip found: /usr/bin/zip
+0000.032 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.033 (0) Creation of backups of directories: beginning
+0000.034 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.174 (0) Total entities for the zip file: 1385 directories, 9394 files (0 skipped as non-modified), 115.3 MB
+0000.178 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.181 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.184 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.187 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.190 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 9394 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.660 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: size is now: 3.20 MB
+0000.663 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 600 files added (on-disk size: 3270.9 KB)
+0000.665 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 700 files added (on-disk size: 3270.9 KB)
+0000.667 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 800 files added (on-disk size: 3270.9 KB)
+0000.669 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 900 files added (on-disk size: 3270.9 KB)
+0000.671 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1000 files added (on-disk size: 3270.9 KB)
+0000.671 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 9394 files batched, 501 (1002) added so far); re-opening (prior size: 3270.9 KB)
+0000.803 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: size is now: 4.50 MB
+0000.807 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1100 files added (on-disk size: 4575.9 KB)
+0000.809 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1200 files added (on-disk size: 4575.9 KB)
+0000.811 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1300 files added (on-disk size: 4575.9 KB)
+0000.813 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1400 files added (on-disk size: 4575.9 KB)
+0000.815 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1500 files added (on-disk size: 4575.9 KB)
+0000.816 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 9394 files batched, 501 (1503) added so far); re-opening (prior size: 4575.9 KB)
+0000.923 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1600 files added (on-disk size: 5293.4 KB)
+0000.925 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1700 files added (on-disk size: 5293.4 KB)
+0000.927 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1800 files added (on-disk size: 5293.4 KB)
+0000.929 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 1900 files added (on-disk size: 5293.4 KB)
+0000.931 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2000 files added (on-disk size: 5293.4 KB)
+0000.931 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.6 MB, 9394 files batched, 501 (2004) added so far); re-opening (prior size: 5293.4 KB)
+0001.727 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: size is now: 10.40 MB
+0001.731 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2100 files added (on-disk size: 10695.1 KB)
+0001.734 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2200 files added (on-disk size: 10695.1 KB)
+0001.736 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2300 files added (on-disk size: 10695.1 KB)
+0001.737 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2400 files added (on-disk size: 10695.1 KB)
+0001.739 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2500 files added (on-disk size: 10695.1 KB)
+0001.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 9394 files batched, 501 (2505) added so far); re-opening (prior size: 10695.1 KB)
+0002.256 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: size is now: 13.70 MB
+0002.260 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2600 files added (on-disk size: 14070.6 KB)
+0002.262 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2700 files added (on-disk size: 14070.6 KB)
+0002.264 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2800 files added (on-disk size: 14070.6 KB)
+0002.266 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 2900 files added (on-disk size: 14070.6 KB)
+0002.269 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3000 files added (on-disk size: 14070.6 KB)
+0002.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 9394 files batched, 501 (3006) added so far); re-opening (prior size: 14070.6 KB)
+0002.443 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3100 files added (on-disk size: 15184.4 KB)
+0002.446 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3200 files added (on-disk size: 15184.4 KB)
+0002.449 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3300 files added (on-disk size: 15184.4 KB)
+0002.452 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3400 files added (on-disk size: 15184.4 KB)
+0002.454 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3500 files added (on-disk size: 15184.4 KB)
+0002.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 9394 files batched, 501 (3507) added so far); re-opening (prior size: 15184.4 KB)
+0002.624 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3600 files added (on-disk size: 16181.2 KB)
+0002.626 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3700 files added (on-disk size: 16181.2 KB)
+0002.628 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3800 files added (on-disk size: 16181.2 KB)
+0002.630 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 3900 files added (on-disk size: 16181.2 KB)
+0002.632 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4000 files added (on-disk size: 16181.2 KB)
+0002.632 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 9394 files batched, 501 (4008) added so far); re-opening (prior size: 16181.2 KB)
+0002.738 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4100 files added (on-disk size: 16740.4 KB)
+0002.741 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4200 files added (on-disk size: 16740.4 KB)
+0002.743 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4300 files added (on-disk size: 16740.4 KB)
+0002.745 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4400 files added (on-disk size: 16740.4 KB)
+0002.747 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4500 files added (on-disk size: 16740.4 KB)
+0002.748 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 9394 files batched, 501 (4509) added so far); re-opening (prior size: 16740.4 KB)
+0002.897 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4600 files added (on-disk size: 17508.7 KB)
+0002.900 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4700 files added (on-disk size: 17508.7 KB)
+0002.902 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4800 files added (on-disk size: 17508.7 KB)
+0002.904 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 4900 files added (on-disk size: 17508.7 KB)
+0002.906 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5000 files added (on-disk size: 17508.7 KB)
+0002.907 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 9394 files batched, 501 (5010) added so far); re-opening (prior size: 17508.7 KB)
+0003.102 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5100 files added (on-disk size: 18219 KB)
+0003.104 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5200 files added (on-disk size: 18219 KB)
+0003.108 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5300 files added (on-disk size: 18219 KB)
+0003.110 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5400 files added (on-disk size: 18219 KB)
+0003.113 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5500 files added (on-disk size: 18219 KB)
+0003.114 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 9394 files batched, 501 (5511) added so far); re-opening (prior size: 18219 KB)
+0003.296 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5600 files added (on-disk size: 19007.4 KB)
+0003.298 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5700 files added (on-disk size: 19007.4 KB)
+0003.300 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5800 files added (on-disk size: 19007.4 KB)
+0003.302 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 5900 files added (on-disk size: 19007.4 KB)
+0003.304 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6000 files added (on-disk size: 19007.4 KB)
+0003.304 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 9394 files batched, 501 (6012) added so far); re-opening (prior size: 19007.4 KB)
+0003.665 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: size is now: 23.70 MB
+0003.669 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6100 files added (on-disk size: 24259.3 KB)
+0003.671 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6200 files added (on-disk size: 24259.3 KB)
+0003.674 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6300 files added (on-disk size: 24259.3 KB)
+0003.677 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6400 files added (on-disk size: 24259.3 KB)
+0003.679 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6500 files added (on-disk size: 24259.3 KB)
+0003.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 9394 files batched, 501 (6513) added so far); re-opening (prior size: 24259.3 KB)
+0004.064 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6600 files added (on-disk size: 26526.4 KB)
+0004.069 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6700 files added (on-disk size: 26526.4 KB)
+0004.071 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6800 files added (on-disk size: 26526.4 KB)
+0004.077 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 6900 files added (on-disk size: 26526.4 KB)
+0004.083 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7000 files added (on-disk size: 26526.4 KB)
+0004.084 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 9394 files batched, 501 (7014) added so far); re-opening (prior size: 26526.4 KB)
+0004.508 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7100 files added (on-disk size: 27567.5 KB)
+0004.511 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7200 files added (on-disk size: 27567.5 KB)
+0004.513 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7300 files added (on-disk size: 27567.5 KB)
+0004.515 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7400 files added (on-disk size: 27567.5 KB)
+0004.517 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7500 files added (on-disk size: 27567.5 KB)
+0004.517 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 9394 files batched, 501 (7515) added so far); re-opening (prior size: 27567.5 KB)
+0004.634 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7600 files added (on-disk size: 27801.8 KB)
+0004.637 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7700 files added (on-disk size: 27801.8 KB)
+0004.639 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7800 files added (on-disk size: 27801.8 KB)
+0004.640 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 7900 files added (on-disk size: 27801.8 KB)
+0004.642 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8000 files added (on-disk size: 27801.8 KB)
+0004.643 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 9394 files batched, 501 (8016) added so far); re-opening (prior size: 27801.8 KB)
+0005.254 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8100 files added (on-disk size: 31132.9 KB)
+0005.257 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8200 files added (on-disk size: 31132.9 KB)
+0005.259 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8300 files added (on-disk size: 31132.9 KB)
+0005.261 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8400 files added (on-disk size: 31132.9 KB)
+0005.263 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8500 files added (on-disk size: 31132.9 KB)
+0005.264 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.3 MB, 9394 files batched, 501 (8517) added so far); re-opening (prior size: 31132.9 KB)
+0006.254 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8600 files added (on-disk size: 37066.7 KB)
+0006.257 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8700 files added (on-disk size: 37066.7 KB)
+0006.259 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8800 files added (on-disk size: 37066.7 KB)
+0006.261 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 8900 files added (on-disk size: 37066.7 KB)
+0006.263 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 9000 files added (on-disk size: 37066.7 KB)
+0006.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 9394 files batched, 501 (9018) added so far); re-opening (prior size: 37066.7 KB)
+0006.463 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 9100 files added (on-disk size: 37542.5 KB)
+0006.466 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 9200 files added (on-disk size: 37542.5 KB)
+0006.468 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip.tmp: 9300 files added (on-disk size: 37542.5 KB)
+0007.083 (0) Created plugins zip (0) - 38421.2 KB in 7 s (5451.7 KB/s) (sha1: 88fb1b6b5575915c95d93881bcbee4e92f39394e, sha256: 666f8d87977cf73a12bc50deccc85dc0cea3efcf490d562a9186df88d1739c13)
+0007.085 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.090 (0) Total entities for the zip file: 46 directories, 239 files (0 skipped as non-modified), 7.4 MB
+0007.092 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.094 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.423 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-themes.zip.tmp: size is now: 3.60 MB
+0007.461 (0) Created themes zip (0) - 3645.8 KB in 0.4 s (9713.8 KB/s) (sha1: 47d28b788e99347f990924798abd86613786b405, sha256: 01cde7785f359dfdffd0b7e0a4f9474d4d4b64933858c4a81c4cb147a91e3047)
+0007.463 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.464 (0) Looking for candidates to backup in: /home/187653.cloudwaysapps.com/epetjkrrgu/public_html/wp-content/uploads
+0007.464 (0) finding files: revslider: adding to list (1)
+0007.465 (0) finding files: js_composer: adding to list (2)
+0007.465 (0) finding files: 2018: adding to list (3)
+0007.466 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.485 (0) Total entities for the zip file: 177 directories, 1034 files (0 skipped as non-modified), 97.4 MB
+0007.488 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.490 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.493 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.495 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.498 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.9 MB, 1034 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.163 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: size is now: 18.60 MB
+0008.167 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (28.1 MB, 1034 files batched, 83 (584) added so far); re-opening (prior size: 19004.1 KB)
+0008.736 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: size is now: 39.70 MB
+0008.739 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1 s, rate: 25817.7 KB/s)
+0008.740 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1140880584717, normalised_time=0.99156688662329, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=158624094)
+0008.742 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 600 files added (on-disk size: 40689.7 KB)
+0008.745 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 700 files added (on-disk size: 40689.7 KB)
+0008.747 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 800 files added (on-disk size: 40689.7 KB)
+0008.750 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 900 files added (on-disk size: 40689.7 KB)
+0008.753 (0) Zip: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: 1000 files added (on-disk size: 40689.7 KB)
+0009.959 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip.tmp: size is now: 84.80 MB
+0011.184 (0) Created uploads zip (0) - 86844.5 KB in 3.7 s (23360.6 KB/s) (sha1: 69145fa0fc8a8193a74932d796eec3b66d564b33, sha256: b1d30ac3375c56af72446cd95147eacd1487480d978453caeb539a3d46224bbd)
+0011.186 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.187 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0011.188 (0) Looking for candidates to backup in: /home/187653.cloudwaysapps.com/epetjkrrgu/public_html/wp-content
+0011.189 (0) finding files: upgrade: skipping: excluded by options
+0011.189 (0) finding files: uploads: skipping: this is the uploads directory
+0011.189 (0) finding files: index.php: adding to list (1)
+0011.190 (0) finding files: updraft: skipping: this is the updraft directory
+0011.190 (0) finding files: languages: adding to list (2)
+0011.191 (0) finding files: themes: skipping: this is the themes directory
+0011.191 (0) finding files: plugins: skipping: this is the plugins directory
+0011.193 (0) Total entities for the zip file: 3 directories, 27 files (0 skipped as non-modified), 2.8 MB
+0011.346 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-others.zip.tmp: size is now: 0.80 MB
+0011.361 (0) Created others zip (0) - 843.1 KB in 0.2 s (4978.5 KB/s) (sha1: 820f810a186712c92735cfe2d142a68c7f17586b, sha256: d54b2e2689003d6777399f3ade61e31a8ef9a87ddbc1e0e35035c4b92aaf9362)
+0011.364 (0) Saving backup status to database (elements: 8)
+0011.365 (0) Beginning creation of database dump (WordPress DB)
+0011.367 (0) Testing: /usr/bin/mysqldump
+0011.378 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `w0lap_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1101 bytes total)
+0011.382 (0) Binary mysqldump: error (code: 5)
+0011.390 (0) Table w0lap_options: Total expected rows (approximate): 366
+0011.421 (0) Table w0lap_options: Total rows added: 362 in 0.03 seconds
+0011.423 (0) Table w0lap_options: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_options.table.gz - 76.6 KB)
+0011.426 (0) Table w0lap_users: Total expected rows (approximate): 4
+0011.427 (0) Table w0lap_users: Total rows added: 4 in 0.00 seconds
+0011.428 (0) Table w0lap_users: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_users.table.gz - 0.9 KB)
+0011.430 (0) Table w0lap_usermeta: Total expected rows (approximate): 93
+0011.440 (0) Table w0lap_usermeta: Total rows added: 93 in 0.01 seconds
+0011.441 (0) Table w0lap_usermeta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_usermeta.table.gz - 3.7 KB)
+0011.444 (0) Table w0lap_commentmeta: Total expected rows (approximate): 0
+0011.446 (0) Table w0lap_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.447 (0) Table w0lap_commentmeta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_commentmeta.table.gz - 0.3 KB)
+0011.449 (0) Table w0lap_comments: Total expected rows (approximate): 0
+0011.451 (0) Table w0lap_comments: Total rows added: 0 in 0.00 seconds
+0011.452 (0) Table w0lap_comments: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_comments.table.gz - 0.5 KB)
+0011.454 (0) Table w0lap_links: Total expected rows (approximate): 0
+0011.456 (0) Table w0lap_links: Total rows added: 0 in 0.00 seconds
+0011.457 (0) Table w0lap_links: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_links.table.gz - 0.4 KB)
+0011.459 (0) Table w0lap_postmeta: Total expected rows (approximate): 1547
+0011.489 (0) Table w0lap_postmeta: Total rows added: 1547 in 0.03 seconds
+0011.490 (0) Table w0lap_postmeta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_postmeta.table.gz - 28.3 KB)
+0011.493 (0) Table w0lap_posts: Total expected rows (approximate): 517
+0011.558 (0) Table w0lap_posts: Total rows added: 517 in 0.06 seconds
+0011.559 (0) Table w0lap_posts: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_posts.table.gz - 108.4 KB)
+0011.562 (0) Table w0lap_term_relationships: Total expected rows (approximate): 95
+0011.564 (0) Table w0lap_term_relationships: Total rows added: 95 in 0.00 seconds
+0011.565 (0) Table w0lap_term_relationships: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_term_relationships.table.gz - 0.6 KB)
+0011.567 (0) Table w0lap_term_taxonomy: Total expected rows (approximate): 17
+0011.568 (0) Table w0lap_term_taxonomy: Total rows added: 17 in 0.00 seconds
+0011.569 (0) Table w0lap_term_taxonomy: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_term_taxonomy.table.gz - 2 KB)
+0011.571 (0) Table w0lap_termmeta: Total expected rows (approximate): 39
+0011.574 (0) Table w0lap_termmeta: Total rows added: 39 in 0.00 seconds
+0011.575 (0) Table w0lap_termmeta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_termmeta.table.gz - 0.9 KB)
+0011.577 (0) Table w0lap_terms: Total expected rows (approximate): 17
+0011.579 (0) Table w0lap_terms: Total rows added: 17 in 0.00 seconds
+0011.580 (0) Table w0lap_terms: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_terms.table.gz - 0.7 KB)
+0011.583 (0) Table w0lap_yoast_seo_links: Total expected rows (approximate): 76
+0011.586 (0) Table w0lap_yoast_seo_links: Total rows added: 76 in 0.00 seconds
+0011.587 (0) Table w0lap_yoast_seo_links: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_yoast_seo_links.table.gz - 1.8 KB)
+0011.590 (0) Table w0lap_yoast_seo_meta: Total expected rows (approximate): 151
+0011.592 (0) Table w0lap_yoast_seo_meta: Total rows added: 151 in 0.00 seconds
+0011.593 (0) Table w0lap_yoast_seo_meta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_yoast_seo_meta.table.gz - 0.7 KB)
+0011.595 (0) Table w0lap_donation_donors: Total expected rows (approximate): 53
+0011.598 (0) Table w0lap_donation_donors: Total rows added: 53 in 0.00 seconds
+0011.598 (0) Table w0lap_donation_donors: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_donors.table.gz - 2.2 KB)
+0011.601 (0) Table w0lap_donation_emails: Total expected rows (approximate): 5
+0011.602 (0) Table w0lap_donation_emails: Total rows added: 5 in 0.00 seconds
+0011.603 (0) Table w0lap_donation_emails: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_emails.table.gz - 2 KB)
+0011.605 (0) Table w0lap_donation_payment_history: Total expected rows (approximate): 126
+0011.613 (0) Table w0lap_donation_payment_history: Total rows added: 126 in 0.01 seconds
+0011.614 (0) Table w0lap_donation_payment_history: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_payment_history.table.gz - 3.5 KB)
+0011.617 (0) Table w0lap_donation_payment_log: Total expected rows (approximate): 127
+0011.627 (0) Table w0lap_donation_payment_log: Total rows added: 126 in 0.01 seconds
+0011.628 (0) Table w0lap_donation_payment_log: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_payment_log.table.gz - 12.8 KB)
+0011.631 (0) Table w0lap_donation_subscriptions: Total expected rows (approximate): 11
+0011.633 (0) Table w0lap_donation_subscriptions: Total rows added: 11 in 0.00 seconds
+0011.634 (0) Table w0lap_donation_subscriptions: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_subscriptions.table.gz - 1 KB)
+0011.636 (0) Table w0lap_revslider_css: Total expected rows (approximate): 109
+0011.642 (0) Table w0lap_revslider_css: Total rows added: 109 in 0.01 seconds
+0011.643 (0) Table w0lap_revslider_css: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_css.table.gz - 4.9 KB)
+0011.646 (0) Table w0lap_revslider_layer_animations: Total expected rows (approximate): 0
+0011.648 (0) Table w0lap_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0011.649 (0) Table w0lap_revslider_layer_animations: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_layer_animations.table.gz - 0.3 KB)
+0011.652 (0) Table w0lap_revslider_navigations: Total expected rows (approximate): 0
+0011.653 (0) Table w0lap_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0011.654 (0) Table w0lap_revslider_navigations: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_navigations.table.gz - 0.3 KB)
+0011.657 (0) Table w0lap_revslider_sliders: Total expected rows (approximate): 1
+0011.659 (0) Table w0lap_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0011.659 (0) Table w0lap_revslider_sliders: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_sliders.table.gz - 3.2 KB)
+0011.662 (0) Table w0lap_revslider_slides: Total expected rows (approximate): 5
+0011.665 (0) Table w0lap_revslider_slides: Total rows added: 5 in 0.00 seconds
+0011.666 (0) Table w0lap_revslider_slides: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_slides.table.gz - 7.7 KB)
+0011.668 (0) Table w0lap_revslider_static_slides: Total expected rows (approximate): 0
+0011.669 (0) Table w0lap_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0011.669 (0) Table w0lap_revslider_static_slides: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_static_slides.table.gz - 0.3 KB)
+0011.672 (0) Table w0lap_rg_form: Total expected rows (approximate): 2
+0011.674 (0) Table w0lap_rg_form: Total rows added: 2 in 0.00 seconds
+0011.674 (0) Table w0lap_rg_form: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form.table.gz - 0.4 KB)
+0011.677 (0) Table w0lap_rg_form_meta: Total expected rows (approximate): 2
+0011.679 (0) Table w0lap_rg_form_meta: Total rows added: 2 in 0.00 seconds
+0011.680 (0) Table w0lap_rg_form_meta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form_meta.table.gz - 1.3 KB)
+0011.682 (0) Table w0lap_rg_form_view: Total expected rows (approximate): 66
+0011.685 (0) Table w0lap_rg_form_view: Total rows added: 66 in 0.00 seconds
+0011.686 (0) Table w0lap_rg_form_view: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form_view.table.gz - 1.2 KB)
+0011.689 (0) Table w0lap_rg_incomplete_submissions: Total expected rows (approximate): 0
+0011.690 (0) Table w0lap_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0011.691 (0) Table w0lap_rg_incomplete_submissions: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_incomplete_submissions.table.gz - 0.4 KB)
+0011.693 (0) Table w0lap_rg_lead: Total expected rows (approximate): 14
+0011.695 (0) Table w0lap_rg_lead: Total rows added: 14 in 0.00 seconds
+0011.696 (0) Table w0lap_rg_lead: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead.table.gz - 1.4 KB)
+0011.698 (0) Table w0lap_rg_lead_detail: Total expected rows (approximate): 48
+0011.700 (0) Table w0lap_rg_lead_detail: Total rows added: 48 in 0.00 seconds
+0011.701 (0) Table w0lap_rg_lead_detail: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_detail.table.gz - 1.5 KB)
+0011.703 (0) Table w0lap_rg_lead_detail_long: Total expected rows (approximate): 0
+0011.704 (0) Table w0lap_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0011.704 (0) Table w0lap_rg_lead_detail_long: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_detail_long.table.gz - 0.3 KB)
+0011.707 (0) Table w0lap_rg_lead_meta: Total expected rows (approximate): 0
+0011.709 (0) Table w0lap_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0011.709 (0) Table w0lap_rg_lead_meta: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_meta.table.gz - 0.4 KB)
+0011.712 (0) Table w0lap_rg_lead_notes: Total expected rows (approximate): 0
+0011.713 (0) Table w0lap_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0011.714 (0) Table w0lap_rg_lead_notes: finishing file (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_notes.table.gz - 0.4 KB)
+0011.716 (0) Skipping table (lacks our prefix (w0lap_)): wp_commentmeta
+0011.716 (0) Skipping table (lacks our prefix (w0lap_)): wp_comments
+0011.717 (0) Skipping table (lacks our prefix (w0lap_)): wp_links
+0011.717 (0) Skipping table (lacks our prefix (w0lap_)): wp_options
+0011.718 (0) Skipping table (lacks our prefix (w0lap_)): wp_postmeta
+0011.718 (0) Skipping table (lacks our prefix (w0lap_)): wp_posts
+0011.719 (0) Skipping table (lacks our prefix (w0lap_)): wp_term_relationships
+0011.720 (0) Skipping table (lacks our prefix (w0lap_)): wp_term_taxonomy
+0011.720 (0) Skipping table (lacks our prefix (w0lap_)): wp_termmeta
+0011.721 (0) Skipping table (lacks our prefix (w0lap_)): wp_terms
+0011.721 (0) Skipping table (lacks our prefix (w0lap_)): wp_usermeta
+0011.722 (0) Skipping table (lacks our prefix (w0lap_)): wp_users
+0011.723 (0) Skipping table (lacks our prefix (w0lap_)): wp_wc_download_log
+0011.723 (0) Skipping table (lacks our prefix (w0lap_)): wp_wc_webhooks
+0011.724 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_api_keys
+0011.724 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_attribute_taxonomies
+0011.725 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_downloadable_product_permissions
+0011.725 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_log
+0011.726 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_order_itemmeta
+0011.726 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_order_items
+0011.726 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_payment_tokenmeta
+0011.727 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_payment_tokens
+0011.727 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_sessions
+0011.728 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_shipping_zone_locations
+0011.728 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_shipping_zone_methods
+0011.729 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_shipping_zones
+0011.729 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_tax_rate_locations
+0011.730 (0) Skipping table (lacks our prefix (w0lap_)): wp_woocommerce_tax_rates
+0011.731 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_options.table.gz (1/62): adding to final database dump
+0011.750 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_users.table.gz (2/62): adding to final database dump
+0011.752 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_usermeta.table.gz (3/62): adding to final database dump
+0011.753 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_commentmeta.table.gz (4/62): adding to final database dump
+0011.754 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_comments.table.gz (5/62): adding to final database dump
+0011.755 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_links.table.gz (6/62): adding to final database dump
+0011.756 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_postmeta.table.gz (7/62): adding to final database dump
+0011.765 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_posts.table.gz (8/62): adding to final database dump
+0011.792 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_term_relationships.table.gz (9/62): adding to final database dump
+0011.793 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_term_taxonomy.table.gz (10/62): adding to final database dump
+0011.794 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_termmeta.table.gz (11/62): adding to final database dump
+0011.795 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_terms.table.gz (12/62): adding to final database dump
+0011.796 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_yoast_seo_links.table.gz (13/62): adding to final database dump
+0011.797 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_yoast_seo_meta.table.gz (14/62): adding to final database dump
+0011.798 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_donors.table.gz (15/62): adding to final database dump
+0011.799 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_emails.table.gz (16/62): adding to final database dump
+0011.800 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_payment_history.table.gz (17/62): adding to final database dump
+0011.801 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_payment_log.table.gz (18/62): adding to final database dump
+0011.804 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_donation_subscriptions.table.gz (19/62): adding to final database dump
+0011.805 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_css.table.gz (20/62): adding to final database dump
+0011.808 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_layer_animations.table.gz (21/62): adding to final database dump
+0011.809 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_navigations.table.gz (22/62): adding to final database dump
+0011.809 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_sliders.table.gz (23/62): adding to final database dump
+0011.810 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_slides.table.gz (24/62): adding to final database dump
+0011.814 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_revslider_static_slides.table.gz (25/62): adding to final database dump
+0011.814 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form.table.gz (26/62): adding to final database dump
+0011.815 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form_meta.table.gz (27/62): adding to final database dump
+0011.816 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_form_view.table.gz (28/62): adding to final database dump
+0011.817 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_incomplete_submissions.table.gz (29/62): adding to final database dump
+0011.818 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead.table.gz (30/62): adding to final database dump
+0011.819 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_detail.table.gz (31/62): adding to final database dump
+0011.820 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_detail_long.table.gz (32/62): adding to final database dump
+0011.821 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_meta.table.gz (33/62): adding to final database dump
+0011.821 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db-table-w0lap_rg_lead_notes.table.gz (34/62): adding to final database dump
+0011.822 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db.gz: finished writing out complete database file (232 KB)
+0011.829 (0) Total database tables backed up: 34 (backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db.gz, size: 268979, sha256)
+0011.832 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.833 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.833 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.833 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.834 (0) backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.834 (0) Saving backup history. Total backup size: 127 MB
+0011.836 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.837 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.838 (0) No remote despatch: user chose no remote backup service
+0011.838 (0) Recording as successfully uploaded: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-plugins.zip
+0011.840 (0) Recording as successfully uploaded: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-themes.zip
+0011.842 (0) Recording as successfully uploaded: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-uploads.zip
+0011.843 (0) Recording as successfully uploaded: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-others.zip
+0011.845 (0) Recording as successfully uploaded: backup_2018-09-05-2204_Critas_de_Monterrey_a60bbea1499a-db.gz
+0011.848 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.849 (0) Number of backup sets in history: 1; groups (db): 1
+0011.850 (0) Examining (for databases) backup set with group_id=0, nonce=a60bbea1499a, datestamp=1536185057 (Sep 05 2018 22:04:17)
+0011.850 (0) This backup set is the backup set just made, so will not be deleted.
+0011.850 (0) Number of backup sets in history: 1; groups (files): 1
+0011.851 (0) Examining (for files) backup set with nonce=a60bbea1499a, datestamp=1536185057 (Sep 05 2018 22:04:17)
+0011.851 (0) This backup set is the backup set just made, so will not be deleted.
+0011.851 (0) This backup set is the backup set just made, so will not be deleted.
+0011.852 (0) This backup set is the backup set just made, so will not be deleted.
+0011.852 (0) This backup set is the backup set just made, so will not be deleted.
+0011.852 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.852 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0011.854 (0) Resume backup (a60bbea1499a, 0): finish run
+0011.856 (0) Decremented the semaphore (fd) by 1
+0011.856 (0) Semaphore (fd) unlocked
+0011.857 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.859 (0) The backup apparently succeeded and is now complete
+0011.860 (0) No email will/can be sent - the user has not configured an email address.
+0011.860 (0) El respaldo parece haber tenido éxito y ahora está completado

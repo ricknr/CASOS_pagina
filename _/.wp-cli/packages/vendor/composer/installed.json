@@ -1,0 +1,54 @@
+{
+    "packages": [
+        {
+            "name": "cloudways-lab/dboptimize",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudways-lab/dboptimize.git",
+                "reference": "63deaccfd4ed35b1eebda05b919065ba8052b76e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cloudways-lab/dboptimize/zipball/63deaccfd4ed35b1eebda05b919065ba8052b76e",
+                "reference": "63deaccfd4ed35b1eebda05b919065ba8052b76e",
+                "shasum": ""
+            },
+            "require": {
+                "wp-cli/wp-cli": "^2.5"
+            },
+            "require-dev": {
+                "wp-cli/wp-cli-tests": "^3.0.11"
+            },
+            "time": "2021-09-29T07:21:30+00:00",
+            "default-branch": true,
+            "type": "wp-cli-package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "bundled": false,
+                "commands": [
+                    "optimisation"
+                ]
+            },
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "optimisation.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "source": "https://github.com/cloudways-lab/dboptimize/tree/main",
+                "issues": "https://github.com/cloudways-lab/dboptimize/issues"
+            },
+            "install-path": "../cloudways-lab/dboptimize"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

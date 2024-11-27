@@ -1,0 +1,24 @@
+Start: 2019-09-05 15:39:26
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2019-09-05 15:39:40
+
+Start: 2019-09-05 15:48:43
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+
+Sent payment_failure mail
+End: 2019-09-05 15:48:58

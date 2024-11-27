@@ -1,0 +1,106 @@
+
+/*  FONTS */
+@font-face {
+  font-family: 'Bebas';
+  src: url('../font/Bebas.eot?#iefix') format('../font/embedded-opentype'),  url('../font/Bebas.woff') format('woff'), url('../font/Bebas.ttf')  format('truetype'), url('../font/Bebas.svg#Bebas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header{
+	background-color: #333333 !important;
+}
+
+#header .nav li.profile > a > .meta > .text{
+	color: #fff !important;
+	z-index: 100;
+}
+
+#header .nav li.profile > a {
+	color: #fff !important;
+	z-index: 100;
+}
+
+#header .nav li.profile > a:hover > .meta > .text{
+	color: #000 !important;
+}
+
+#header .nav li.profile > a:hover {
+	color: #000 !important;
+}
+
+#header .nav li.profile.open > a > .meta > .text {
+	color: #000 !important;
+}
+
+#header .nav li.profile.open > a  {
+	color: #000 !important;
+}
+
+
+body{
+  text-transform: uppercase !important;
+}
+
+input::-webkit-input-placeholder { text-transform:uppercase; }
+input::-moz-placeholder { text-transform:uppercase; }
+input::-ms-placeholder { text-transform:uppercase; }
+
+input { 
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: uppercase;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: uppercase;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: uppercase;
+}
+
+select {text-transform:uppercase}
+
+.btn{
+	font-family: 'Bebas' !important;	
+}
+
+.btn-primary{
+	background-color: #202020 !important;
+	border-color: #202020 !important;
+}
+
+.btn-success{
+	background-color: #337ab7 !important;
+	border-color: #2e6da4 !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #286090 !important;
+    border-color: #204d74 !important;
+}
+
+.btn-default{
+	background-color: #EAE9E9 !important;
+	border-color: #EAE9E9 !important;
+	color:#666565;
+}
+
+.panel-primary{
+	border-color: #666565 !important;
+}
+
+.panel-primary > .panel-heading{
+	background-color: #666565 !important;
+	border-color: #666565 !important;
+}
+
+
+table > tbody > tr > td{	
+	font-size: 14px !important;
+}
+

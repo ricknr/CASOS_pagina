@@ -1,0 +1,3 @@
+ServerName wordpress-187653-1730483.cloudwaysapps.com
+ServerAlias www.wordpress-187653-1730483.cloudwaysapps.com www.caritas.org.mx caritas.org.mx
+ServerAlias  caritas.org.mx #UI_Domain_alias

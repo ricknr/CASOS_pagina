@@ -1,0 +1,17 @@
+Start: 2022-11-20 21:03:57
+Initalize Payment
+Donor added
+Updated Payment history
+Added payment log
+Payment processing with 3D secure. redirect
+Payment has been failed
+hook update_payment_history after 3d secure processed
+hook update_payment_log after 3d secure processed
+Sent payment_failure mail
+End: 2022-11-20 21:04:05
+
+Start: 2022-11-20 21:05:24
+Initalize Payment
+Donor added
+Openpay request is failed due to:15001
+La petición no pudo ser procesada.
